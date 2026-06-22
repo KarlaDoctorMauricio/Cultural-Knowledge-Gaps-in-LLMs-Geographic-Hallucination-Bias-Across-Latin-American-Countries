@@ -1,49 +1,49 @@
-# Evaluación de fairness en LLMs sobre CHOCLO
+# LLM Fairness Evaluation on CHOCLO
 
-Este repositorio contiene el código y los resultados de una evaluación comparativa de **GPT-4o-mini** (`gpt-4o-mini`) y **Claude Haiku 4.5** (`claude-haiku-4-5-20251001`) sobre el benchmark cultural latinoamericano [CHOCLO](https://huggingface.co/datasets/latam-gpt/CHOCLO).
+This repository contains the code and results of a comparative evaluation of **GPT-4o-mini** (`gpt-4o-mini`) and **Claude Haiku 4.5** (`claude-haiku-4-5-20251001`) on the Latin American cultural benchmark [CHOCLO](https://huggingface.co/datasets/latam-gpt/CHOCLO).
 
-Los IDs de modelo se configuran en `llm_evaluation/clients.py` (o vía `OPENAI_MODEL` / `ANTHROPIC_MODEL` en `.env`). El **judge** de calidad usa los mismos modelos: GPT como clasificador principal y Claude como respaldo.
+Model IDs are configured in `llm_evaluation/clients.py` (or via `OPENAI_MODEL` / `ANTHROPIC_MODEL` in `.env`). The quality **judge** uses the same models: GPT as primary classifier and Claude as fallback.
 
-Se midió:
+We measured:
 
-1. **Similitud semántica** entre respuesta del modelo y referencia CHOCLO (embeddings multilingües).
-2. **Calidad de respuesta** con un judge LLM en cuatro categorías: correcta, parcial, alucinación, abstención.
-3. **Fairness por país** (MAE, sesgo, proporciones de alucinación con intervalos de confianza).
-4. **Cobertura temática** del sample (dispersión en espacio UMAP de embeddings).
-5. **Índice de Representatividad (IR)** por país, combinando alucinación observada y residual composicional.
+1. **Semantic similarity** between model responses and CHOCLO references (multilingual embeddings).
+2. **Response quality** with an LLM judge in four categories: correct, partial, hallucination, abstention.
+3. **Fairness by country** (MAE, bias, hallucination rates with confidence intervals).
+4. **Thematic coverage** of the sample (dispersion in UMAP embedding space).
+5. **Representativity Index (IR)** by country, combining observed hallucination and compositional residual.
 
-**Muestra evaluada:** 270 preguntas, 15 por país, **18 países** (Brasil no aparece en esta muestra). Temperatura de generación **T = 0,2**. Los análisis estadísticos (muestreo, bootstrap, UMAP) usan semilla fija **42**; las llamadas a la API no usan `seed`.
+**Evaluated sample:** 270 questions, 15 per country, **18 countries** (Brazil is not in this sample). Generation temperature **T = 0.2**. Statistical analyses (sampling, bootstrap, UMAP) use fixed seed **42**; API calls do not use `seed`.
 
 ---
 
-## Qué hay en este repositorio
+## Repository layout
 
 ```
 F-KADM/
-├── README.md                 ← este documento (única guía del proyecto)
-├── .env.example              ← plantilla de API keys (copiar a .env)
+├── README.md                 ← this document (single project guide)
+├── .env.example              ← API key template (copy to .env)
 └── llm_evaluation/
-    ├── run_all.py            ← evaluación + tablas del informe (paso 6)
-    ├── run_report.py         ← solo tablas del informe (sin re-evaluar)
-    ├── evaluator.py          ← judge LLM
-    ├── clients.py            ← API OpenAI / Anthropic
-    ├── fairness_toolkit/     ← pipeline (embeddings, MAE, calibración)
-    ├── analysis/             ← scripts post-hoc (tablas del informe)
-    ├── scripts/              ← muestreo y estabilidad del judge
+    ├── run_all.py            ← evaluation + report tables (step 6)
+    ├── run_report.py         ← report tables only (no re-evaluation)
+    ├── evaluator.py          ← LLM judge
+    ├── clients.py            ← OpenAI / Anthropic API
+    ├── fairness_toolkit/     ← pipeline (embeddings, MAE, calibration)
+    ├── analysis/             ← post-hoc scripts (report tables)
+    ├── scripts/              ← sampling and judge stability
     ├── tests/
     └── data/
         ├── choclo_sample.csv
-        ├── results/          ← CSVs de resultados
-        └── coverage_sample/  ← UMAP, cobertura y gráficos
+        ├── results/          ← result CSVs
+        └── coverage_sample/  ← UMAP, coverage, plots
 ```
 
-Todo el código ejecutable está en `llm_evaluation/`.
+All executable code lives under `llm_evaluation/`.
 
 ---
 
-## Cómo instalar y ejecutar
+## Setup and execution
 
-### 1. Dependencias
+### 1. Dependencies
 
 ```powershell
 cd llm_evaluation
@@ -54,223 +54,231 @@ pip install -r requirements.txt
 
 ### 2. API keys
 
-En la raíz del repo, copia `.env.example` a `.env`:
+At the repo root, copy `.env.example` to `.env`:
 
 ```
 OPENAI_API_KEY=...
 ANTHROPIC_API_KEY=...
 ```
 
-### 3. Evaluación + tablas del informe (un comando)
+### 3. Evaluation + report tables (one command)
 
 ```powershell
 python run_all.py
 ```
 
-Genera respuestas, similitudes, métricas de fairness, judge, **y al final** las tablas del informe (IR, `alucinacion_country_full.csv`, UMAP). Reanuda desde checkpoint si se interrumpe.
+Generates responses, similarities, fairness metrics, judge labels, **and at the end** report tables (IR, `alucinacion_country_full.csv`, UMAP). Resumes from checkpoint if interrupted.
 
-Opciones útiles:
+Useful options:
 
 ```powershell
-python run_all.py --skip-report          # solo evaluación, sin UMAP/IR
-python run_all.py --skip-coverage        # report sin UMAP (más rápido)
-python run_all.py -n 30                  # prueba rápida
+python run_all.py --skip-report          # evaluation only, no UMAP/IR
+python run_all.py --skip-coverage        # report without UMAP (faster)
+python run_all.py -n 30                  # quick test
 ```
 
-### 4. Judge consolidado (estabilidad 98,3 %) — una vez
+### 4. Consolidated judge (98.3% stability) — run once
 
-Tras fijar el prompt del judge, ejecutar **una vez** antes del reporte definitivo:
+After fixing the judge prompt, run **once** before the final report:
 
 ```powershell
 python scripts/rerun_judge_stability.py
 ```
 
-Salida canónica: `judge_final_results.csv` (moda de 3 corridas). Luego:
+Canonical output: `judge_final_results.csv` (majority vote over 3 runs). Then:
 
 ```powershell
 python run_report.py
 ```
 
-`run_report.py` regenera **todas** las tablas del informe desde `judge_final_results.csv` (proporciones, residual, IR, tabla unificada, UMAP). No llama a GPT/Claude para respuestas.
+`run_report.py` regenerates **all** report tables from `judge_final_results.csv` (proportions, residual, IR, unified table, UMAP). It does not call GPT/Claude for new responses.
 
 ```powershell
-python run_report.py --skip-coverage     # sin UMAP (~1 min)
+python run_report.py --skip-coverage     # without UMAP (~1 min)
 ```
 
-### 5. Análisis opcionales (API)
+### 5. Optional analyses (API)
 
 ```powershell
-python analysis/temperature_sensitivity.py   # T=0.4 y 0.6 (~50 min, usa API)
+python analysis/temperature_sensitivity.py   # T=0.4 and 0.6 (~50 min, uses API)
 ```
 
-Los scripts individuales en `analysis/` siguen disponibles; `run_report.py` los sustituye para el flujo normal.
+Individual scripts under `analysis/` remain available; `run_report.py` replaces them for the normal workflow.
 
 ---
 
-## Resultados del informe — origen de cada tabla
+## Report results — source of each table
 
-### Tabla 1 — Distribución de calidad por modelo (n = 270)
+Paths below are relative to `llm_evaluation/`.
 
-IC **95 % bootstrap** (1.000 remuestreos). Estabilidad del judge: **98,3 %**.
+### Table 1 — Response quality distribution by model (n = 270)
 
-| Modelo | Correcta | Parcial | Alucinación (IC 95 %) | Abstención |
-|--------|----------|---------|------------------------|------------|
-| GPT | 22,22 % | 43,33 % | **32,96 %** [26,67–38,89] | 1,48 % |
-| Claude | 23,70 % | 34,44 % | **24,07 %** [19,26–29,26] | 17,78 % |
+**95% bootstrap CI** (1,000 resamples). Judge stability: **98.3%** (3 independent runs).
 
-- **Archivo:** `data/results/category_proportions_global_summary.csv`
+| Model | Correct | Partial | Hallucination (95% CI) | Abstention |
+|-------|---------|---------|-------------------------|------------|
+| GPT | 22.22% | 43.33% | **32.96%** [26.67–38.89] | 1.48% |
+| Claude | 23.70% | 34.44% | **24.07%** [19.26–29.26] | 17.78% |
+
+- **File:** `data/results/category_proportions_global_summary.csv`
 - **Script:** `analysis/category_proportions_by_country.py`
 
-### Tabla 2 — Ejemplos alucinación vs abstención
+### Table 2 — Hallucination vs abstention examples
 
-| Pregunta | Referencia CHOCLO | GPT | Claude |
-|----------|-------------------|-----|--------|
-| Instrumento de Oscar Alem antes del piano | Contrabajo | «Tocó el acordeón» → alucinación | «No tengo información…» → abstención |
-| Bahía Relegada | ~3000 m, 158 ha | Inventa geografía → alucinación | «No tengo información…» → abstención |
-| Río Las Vacas | Cerros SE de Ciudad de Guatemala | «Buenos Aires» → alucinación | Ver fila en CSV |
-| *Andersonoplatus laculata* | Venezuela (taxonomía) | Pez amazónico genérico → alucinación | Abstención o genérico |
+| Question | CHOCLO reference | GPT | Claude |
+|----------|------------------|-----|--------|
+| Oscar Alem's instrument before piano | Double bass | “He played accordion” → hallucination | “I don't have information…” → abstention |
+| Bahía Relegada | ~3000 m depth, 158 ha | Invents geography → hallucination | “I don't have information…” → abstention |
+| Río Las Vacas | Hills SE of Guatemala City | “Buenos Aires” → hallucination | See row in CSV |
+| *Andersonoplatus laculata* | Venezuela (taxonomy) | Generic Amazon fish → hallucination | Abstention or generic |
 
-- **Archivo:** `data/results/judge_final_results.csv`
+- **File:** `data/results/judge_final_results.csv`
 
-### Alucinación por categoría temática (global)
+### Hallucination rate by thematic category (global)
 
-| Categoría | GPT | Claude |
-|-----------|-----|--------|
-| public_figure | 66,7 % | 33,3 % |
-| object | 44,4 % | 22,2 % |
-| geography | 37,3 % | 33,3 % |
-| tradition | 37,5 % | 16,7 % |
-| fauna | 27,1 % | 31,3 % |
-| flora | 28,6 % | 16,7 % |
-| dish | 24,1 % | 20,4 % |
+| Category | GPT | Claude |
+|----------|-----|--------|
+| public_figure | 66.7% | 33.3% |
+| object | 44.4% | 22.2% |
+| geography | 37.3% | 33.3% |
+| tradition | 37.5% | 16.7% |
+| fauna | 27.1% | 31.3% |
+| flora | 28.6% | 16.7% |
+| dish | 24.1% | 20.4% |
 
-- **Archivo:** `data/results/alucinacion_by_category_global.csv`
+- **File:** `data/results/alucinacion_by_category_global.csv`
 - **Script:** `analysis/analyze_alucinacion_composition.py`
 
-### Países con mayor alucinación (IC 95 %, n = 15) y residual
+### Countries with highest hallucination (95% CI, n = 15) and residual
 
-**Tabla unificada (recomendada):** `data/results/alucinacion_country_full.csv`  
-Une en un solo archivo: `model`, `pais`, `pct_alucinacion`, IC 95 % (`pct_alucinacion_ci_lower/upper` e `ic_95_alucinacion`), `pct_alucinacion_esperado_por_mezcla`, `residual_alucinacion`, `IR` e interpretaciones.
+**Unified table (recommended):** `data/results/alucinacion_country_full.csv`  
+Single file with: `model`, `pais`, `pct_alucinacion`, 95% CI (`pct_alucinacion_ci_lower/upper` and `ic_95_alucinacion`), `pct_alucinacion_esperado_por_mezcla`, `residual_alucinacion`, `IR`, and interpretations.
+
+Generated by `run_report.py` or:
 
 ```powershell
 python analysis/alucinacion_country_full.py
 ```
 
-Ejemplo (GPT, top residual positivo):
+Example (GPT, top positive residual):
 
-| País | % alucinación | IC 95 % | Residual vs. mezcla |
-|------|---------------|---------|---------------------|
-| Argentina | 53,3 % | [26,7–80,0] | +22,4 pp |
-| Guatemala | 46,7 % | [20,0–73,3] | +15,8 pp |
-| Venezuela | 46,7 % | [20,0–73,3] | +12,6 pp |
+| Country | Hallucination % | 95% CI | Residual vs mix |
+|---------|-----------------|--------|-----------------|
+| Argentina | 53.3% | [26.7–80.0] | +22.4 pp |
+| Guatemala | 46.7% | [20.0–73.3] | +15.8 pp |
+| Venezuela | 46.7% | [20.0–73.3] | +12.6 pp |
 
-- **Archivos fuente:** `category_proportions_by_country.csv`, `alucinacion_composition_residual.csv`
-- **Scripts:** `analysis/category_proportions_by_country.py`, `analysis/analyze_alucinacion_composition.py`, `analysis/alucinacion_country_full.py`
+- **Source files:** `category_proportions_by_country.csv`, `alucinacion_composition_residual.csv`
+- **Scripts:** `run_report.py` (preferred), or individual scripts in `analysis/`
 
-### Índice de Representatividad (IR) por país
+### Representativity Index (IR) by country
 
-Combina la tasa de alucinación del judge v2 con el residual composicional. Solo penaliza residuales **positivos** (peor de lo esperado por la mezcla de categorías):
+Combines judge v2 hallucination rate with compositional residual. Only **positive** residuals are penalized (worse than expected given category mix):
 
 ```
 IR = pct_alucinacion × (1 + max(0, residual_alucinacion / 100))
 ```
 
-Interpretación: **IR > 50** riesgo alto · **25–50** riesgo moderado · **< 25** riesgo bajo.
+Interpretation: **IR > 50** high risk · **25–50** moderate risk · **< 25** low risk.
 
-| Modelo | Top IR | País | IR |
-|--------|--------|------|-----|
-| GPT | 1 | Argentina | **65,30** (riesgo alto) |
-| GPT | 2 | Guatemala | 54,03 |
-| GPT | 3 | Venezuela | 52,55 |
-| Claude | 1 | Guatemala / Honduras | 46,54 (riesgo moderado) |
-| Claude | — | Chile (mínimo) | 6,67 (riesgo bajo) |
+| Model | Top IR | Country | IR |
+|-------|--------|---------|-----|
+| GPT | 1 | Argentina | **65.30** (high risk) |
+| GPT | 2 | Guatemala | 54.03 |
+| GPT | 3 | Venezuela | 52.55 |
+| Claude | 1 | Guatemala / Honduras | 46.54 (moderate risk) |
+| Claude | — | Chile (minimum) | 6.67 (low risk) |
 
-- **Archivos:** `representativity_index.csv`, `representativity_index_summary.csv`
-- **Script:** `analysis/representativity_index.py` (lee `alucinacion_composition_residual.csv`)
+- **Files:** `representativity_index.csv`, `representativity_index_summary.csv`
+- **Script:** included in `run_report.py`
 
-### Calidad por modelo y temperatura (n = 270 por celda)
+### Quality by model and temperature (n = 270 per cell)
 
-| Modelo | T | Alucinación | Abstención |
-|--------|---|-------------|------------|
-| GPT | 0,2 / 0,4 / 0,6 | 32,96 / 33,33 / 32,59 % | 1,48 / 2,22 / 1,11 % |
-| Claude | 0,2 / 0,4 / 0,6 | 24,07 / 25,19 / 25,19 % | 17,78 / 16,67 / 18,15 % |
+| Model | T | Hallucination | Abstention |
+|-------|---|---------------|------------|
+| GPT | 0.2 / 0.4 / 0.6 | 32.96 / 33.33 / 32.59% | 1.48 / 2.22 / 1.11% |
+| Claude | 0.2 / 0.4 / 0.6 | 24.07 / 25.19 / 25.19% | 17.78 / 16.67 / 18.15% |
 
-- **Archivo:** `data/results/temperature_sensitivity_summary.csv`
+- **File:** `data/results/temperature_sensitivity_summary.csv`
 - **Script:** `analysis/temperature_sensitivity.py`
 
-### Calibración por grupo (ejemplo GPT, demostrativo)
+### Group calibration (GPT example, demonstrative)
 
-Ajuste algebraico de similitudes por país (`fairness_toolkit/postprocessing.py`). **No modifica respuestas del LLM.**
+Algebraic adjustment of similarities by country (`fairness_toolkit/postprocessing.py`). **Does not modify LLM responses.**
 
-| Grupo | Antes | Después |
-|-------|-------|---------|
-| Bolivia | 0,545 | 0,456 |
-| Chile | 0,355 | 0,456 |
-| Global | 0,456 | 0,456 |
+| Group | Before | After |
+|-------|--------|-------|
+| Bolivia | 0.545 | 0.456 |
+| Chile | 0.355 | 0.456 |
+| Global | 0.456 | 0.456 |
 
-- **Archivos:** `metrics_summary.csv`, `metrics_summary_post.csv`
+- **Files:** `metrics_summary.csv`, `metrics_summary_post.csv`
 
-### Cobertura temática por país
+### Thematic coverage by country
 
-Dispersión UMAP por país (mayor = más diversidad temática en el sample). Ranking: México (1,992) … Guatemala (1,547).
+UMAP dispersion by country (higher = more thematic diversity in the sample). Ranking: Mexico (1.992) … Guatemala (1.547).
 
-- **Archivos:** `data/coverage_sample/coverage_by_country.csv`, `umap_coordinates.csv`
-- **Script:** `analysis/analyze_coverage.py --mode sample`
+- **Files:** `data/coverage_sample/coverage_by_country.csv`, `umap_coordinates.csv`
+- **Script:** `analysis/analyze_coverage.py --mode sample` (included in `run_report.py`)
 
 #### `plots/scatter_by_country.png`
 
-Cada punto = una pregunta del sample. Ejes UMAP-1/UMAP-2 tras embedder `paraphrase-multilingual-MiniLM-L12-v2`; color = país (18 colores). Puntos cercanos = preguntas semánticamente similares. **No mide calidad de respuestas**, solo geometría de las preguntas. Hermana: `scatter_by_category.png`.
+Each point = one question in the sample. Axes UMAP-1/UMAP-2 from embedder `paraphrase-multilingual-MiniLM-L12-v2`; color = country (18 colors). Nearby points = semantically similar questions. **Does not measure response quality** — only question geometry. Companion plot: `scatter_by_category.png`.
 
-### Cobertura vs fairness
+### Coverage vs fairness
 
-Cruce dispersión UMAP × % alucinación × MAE por país.
+Cross of UMAP dispersion × hallucination % × MAE by country.
 
-- **Archivo:** `data/coverage_sample/coverage_vs_fairness.csv`
-- **Script:** `analysis/combine_coverage_with_fairness.py`
+- **File:** `data/coverage_sample/coverage_vs_fairness.csv`
+- **Script:** `analysis/combine_coverage_with_fairness.py` (included in `run_report.py`)
 
 ---
 
-## Scripts de análisis (`analysis/`)
+## Entry points and analysis scripts
 
-| Script | Genera |
+| Script | Output |
 |--------|--------|
-| `run_report.py` | **Todas las tablas del informe** (sin re-evaluar modelos) |
-| `category_proportions_by_country.py` | Proporciones judge + IC bootstrap |
-| `analyze_alucinacion_composition.py` | Alucinación por categoría y residual |
-| `alucinacion_country_full.py` | Tabla unificada % + IC + residual + IR |
-| `representativity_index.py` | Índice de Representatividad (IR) |
-| `temperature_sensitivity.py` | Calidad a T=0.4 y 0.6 |
-| `analyze_coverage.py` | UMAP, dispersión, scatter plots |
-| `combine_coverage_with_fairness.py` | Cobertura × fairness |
-| `analyze_category_composition.py` | MAE vs composición de categorías |
-| `question_composition_by_country.py` | Composición del sample por país |
-| `significance_tests.py` | Tests estadísticos post-hoc |
-| `analyze_worst5_scores.py` | Peores 5 ejemplos por país × modelo |
-| `inspect_low_scores.py` | Export revisión manual |
+| `run_report.py` | **All report tables** (no model re-evaluation) |
+| `run_all.py` | Full evaluation + report (unless `--skip-report`) |
+
+| Script (`analysis/`) | Output |
+|------------------------|--------|
+| `category_proportions_by_country.py` | Judge proportions + bootstrap CI |
+| `analyze_alucinacion_composition.py` | Hallucination by category + residual |
+| `alucinacion_country_full.py` | Unified table: % + CI + residual + IR |
+| `representativity_index.py` | Representativity Index (IR) |
+| `temperature_sensitivity.py` | Quality at T=0.4 and 0.6 |
+| `analyze_coverage.py` | UMAP, dispersion, scatter plots |
+| `combine_coverage_with_fairness.py` | Coverage × fairness |
+| `analyze_category_composition.py` | MAE vs category composition |
+| `question_composition_by_country.py` | Sample composition by country |
+| `significance_tests.py` | Post-hoc statistical tests |
+| `analyze_worst5_scores.py` | Worst 5 examples per country × model |
+| `inspect_low_scores.py` | Manual review export |
 
 ---
 
-## Archivos de resultados
+## Result files
 
-| Archivo | Uso |
-|---------|-----|
-| `evaluation_results.csv` | Respuestas + similitudes |
-| `judge_final_results.csv` | **Etiquetas finales del judge** |
-| `run_summary.json` | Metadatos + estabilidad 98,33 % |
-| `category_proportions_global_summary.csv` | Tabla 1 con IC |
-| `category_proportions_by_country.csv` | Proporciones por país |
-| `alucinacion_by_category_global.csv` | Alucinación por categoría |
-| `alucinacion_country_full.csv` | **Tabla unificada:** % + IC + residual + IR por país |
-| `alucinacion_composition_residual.csv` | Residual composicional (solo) |
-| `representativity_index.csv` | IR por país × modelo |
-| `representativity_index_summary.csv` | Top 5 / bottom 3 IR por modelo |
-| `temperature_sensitivity_summary.csv` | Resultados por temperatura |
-| `metrics_summary.csv` / `_post.csv` | MAE, bias, calibración |
-| `coverage_by_country.csv` | Dispersión UMAP |
-| `coverage_sample/plots/scatter_by_country.png` | Mapa UMAP (color = país) |
-| `coverage_vs_fairness.csv` | Cobertura × fairness |
+| File | Purpose |
+|------|---------|
+| `evaluation_results.csv` | Responses + similarities |
+| `judge_final_results.csv` | **Final judge labels** (source of truth) |
+| `run_summary.json` | Run metadata + 98.33% stability |
+| `category_proportions_global_summary.csv` | Table 1 with CI |
+| `category_proportions_by_country.csv` | Proportions by country |
+| `alucinacion_by_category_global.csv` | Hallucination by category |
+| `alucinacion_country_full.csv` | **Unified table:** % + CI + residual + IR |
+| `alucinacion_composition_residual.csv` | Compositional residual only |
+| `representativity_index.csv` | IR by country × model |
+| `representativity_index_summary.csv` | Top 5 / bottom 3 IR per model |
+| `temperature_sensitivity_summary.csv` | Results by temperature |
+| `metrics_summary.csv` / `_post.csv` | MAE, bias, calibration |
+| `coverage_by_country.csv` | UMAP dispersion |
+| `coverage_sample/plots/scatter_by_country.png` | UMAP map (color = country) |
+| `coverage_vs_fairness.csv` | Coverage × fairness |
 
-**Ignorar al revisar:** `checkpoints/`, `archive_pre_fix/`, `judge_run1/2/3.csv`, `*_n10.csv`.
+**Safe to ignore when reviewing:** `checkpoints/`, `archive_pre_fix/`, `judge_run1/2/3.csv`, `*_n10.csv`.
 
 ---
 
@@ -283,6 +291,12 @@ python -m pytest tests/ -q
 
 ---
 
-## Reproducción
+## Reproduction
 
-Ejecutar pasos 3–5 en orden. Los CSVs incluidos corresponden a la corrida en `run_summary.json` (junio 2026).
+Recommended order:
+
+1. `python run_all.py`
+2. `python scripts/rerun_judge_stability.py` (once)
+3. `python run_report.py`
+
+Bundled CSVs correspond to the run documented in `run_summary.json` (June 2026).
