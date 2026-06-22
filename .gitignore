@@ -1,0 +1,13 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.DS_Store
+
+# Artefactos de ejecución (no forman parte del informe)
+llm_evaluation/data/results/checkpoints/
+llm_evaluation/data/results/checkpoints_*/
+llm_evaluation/data/results/*_n10.csv

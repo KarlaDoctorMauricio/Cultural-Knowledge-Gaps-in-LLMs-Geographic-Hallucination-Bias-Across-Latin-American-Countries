@@ -1,0 +1,7 @@
+modelo,temperatura,pct_correcta,pct_parcial,pct_alucinacion,pct_abstencion,n_judged
+Claude,0.2,23.7,34.44,24.07,17.78,270
+Claude,0.4,22.96,35.19,25.19,16.67,270
+Claude,0.6,22.96,33.7,25.19,18.15,270
+GPT,0.2,22.22,43.33,32.96,1.48,270
+GPT,0.4,23.7,40.74,33.33,2.22,270
+GPT,0.6,23.7,42.59,32.59,1.11,270

@@ -1,0 +1,271 @@
+Entity,Country,Category,Difficulty,pais,umap_x,umap_y
+Dorada Pampeana,Argentina,dish,DIFÍCIL,argentina,3.106221,-0.50077
+antonio gonzaga,argentina,dish,FÁCIL,argentina,-0.35753694,1.5844408
+Bamiyeh,Argentina,dish,INTERMEDIA,argentina,3.1677828,5.3904185
+Abrothrix lanosus,Argentina,fauna,DIFÍCIL,argentina,3.6524901,-0.5604286
+Trachemys dorbigni,Argentina,fauna,FÁCIL,argentina,4.141482,-2.3165865
+Lysapsus limellum,Argentina,fauna,INTERMEDIA,argentina,5.1483364,-0.27851206
+alstroemeria apertiflora,argentina,flora,DIFÍCIL,argentina,4.6468616,-1.6629574
+Tillandsia peiranoi,Argentina,flora,FÁCIL,argentina,5.2941904,-2.0716982
+Echinopsis thelegona,Argentina,flora,INTERMEDIA,argentina,4.7924848,-0.9946444
+bahía relegada,argentina,geography,DIFÍCIL,argentina,3.2892776,0.61055225
+corregimiento de aconcagua,argentina,geography,FÁCIL,argentina,1.6399888,0.906096
+bahía golondrina (bahía),argentina,geography,INTERMEDIA,argentina,4.1508036,0.88541687
+Quinteto Santa Fe,Argentina,tradition,DIFÍCIL,argentina,1.2547077,1.4591537
+raúl barboza,argentina,tradition,FÁCIL,argentina,-0.29758614,1.655778
+oscar alem,argentina,tradition,INTERMEDIA,argentina,0.22446968,2.5222082
+sajta de pollo,bolivia,dish,DIFÍCIL,bolivia,2.3345513,2.3690305
+majadito,bolivia,dish,FÁCIL,bolivia,2.1734262,4.0340185
+Sopa de cacahuete,Bolivia,dish,INTERMEDIA,bolivia,3.3361294,4.893415
+Pseudastur albicollis,Bolivia,fauna,DIFÍCIL,bolivia,4.058192,-2.1624718
+spectrolebias bellidoi,bolivia,fauna,FÁCIL,bolivia,4.465385,-2.2302697
+acanthopoma annectens,bolivia,fauna,INTERMEDIA,bolivia,4.315783,-1.1371863
+parque regional yacuma,bolivia,geography,DIFÍCIL,bolivia,3.8505201,0.10209716
+Laguna del Becerro,Bolivia,geography,FÁCIL,bolivia,4.165626,1.2084767
+Laguna de San Nicolás,Bolivia,geography,INTERMEDIA,bolivia,4.0703225,1.5650979
+antonio ávila jiménez,bolivia,public_figure,DIFÍCIL,bolivia,0.6099339,1.7991765
+gary daher canedo,bolivia,public_figure,FÁCIL,bolivia,-0.40239424,1.5261605
+josé antonio arze,bolivia,public_figure,INTERMEDIA,bolivia,0.4205849,2.0129192
+Mauro Núñez,Bolivia,tradition,DIFÍCIL,bolivia,0.6849777,2.1903958
+pepino (personaje),bolivia,tradition,FÁCIL,bolivia,2.9921706,3.0224576
+taquipayanaku,bolivia,tradition,INTERMEDIA,bolivia,1.2711291,3.0456967
+valle de curicó,chile,dish,DIFÍCIL,chile,3.551133,0.48266917
+choromytilus chorus,chile,dish,FÁCIL,chile,0.2331252,2.7359402
+valle del marga-marga,chile,dish,INTERMEDIA,chile,3.8185916,1.1064783
+jubaea chilensis,chile,flora,DIFÍCIL,chile,3.9805007,-0.40627456
+alstroemeria huemulina,chile,flora,FÁCIL,chile,4.66917,-2.092667
+laurolitsina,chile,flora,INTERMEDIA,chile,5.440819,-1.8880967
+gran valparaíso,chile,geography,DIFÍCIL,chile,4.6129584,1.4772738
+puerto río tranquilo,chile,geography,FÁCIL,chile,4.3116484,1.5554633
+crisis de la marea roja en chiloé de 2016,chile,geography,INTERMEDIA,chile,2.8666189,0.590881
+jorge jobet,chile,public_figure,DIFÍCIL,chile,0.35175318,1.5535945
+camilo josé vergara,chile,public_figure,FÁCIL,chile,-0.37573928,1.6310252
+próspero bisquertt prado,chile,public_figure,INTERMEDIA,chile,0.68306655,1.276898
+loza policromada de talagante,chile,tradition,DIFÍCIL,chile,1.4370072,1.9598966
+amerindios (banda),chile,tradition,FÁCIL,chile,1.2792456,1.4830109
+festival internacional de teatro por chiloé profundo,chile,tradition,INTERMEDIA,chile,2.075122,1.6185535
+lulada,colombia,dish,DIFÍCIL,colombia,3.1585007,5.297078
+hojaldra,colombia,dish,FÁCIL,colombia,1.9967238,4.0649276
+chocoramo,colombia,dish,INTERMEDIA,colombia,1.5016704,1.1543995
+rhinella macrorhina,colombia,fauna,DIFÍCIL,colombia,3.761966,-0.92481446
+Hemidoras stenopeltis,Colombia,fauna,FÁCIL,colombia,4.040709,-2.3290403
+Petilipinnis grunniens,Colombia,fauna,INTERMEDIA,colombia,4.8333178,0.31142977
+páramo de frontino,colombia,geography,DIFÍCIL,colombia,2.9768972,0.21165808
+parque nacional natural corales de profundidad,colombia,geography,FÁCIL,colombia,3.8991568,0.14780234
+cabildo indígena,colombia,geography,INTERMEDIA,colombia,3.0715194,-0.66101927
+tour pies descalzos,colombia,public_figure,DIFÍCIL,colombia,2.2153301,1.1606534
+gris (canción de j balvin),colombia,public_figure,FÁCIL,colombia,0.07024148,2.345901
+dançando,colombia,public_figure,INTERMEDIA,colombia,0.0027092625,2.3729496
+festival internacional de la cultura de boyacá 2011,colombia,tradition,DIFÍCIL,colombia,2.2602043,1.9341222
+mapalé,colombia,tradition,FÁCIL,colombia,2.038847,3.9374118
+son de negro,colombia,tradition,INTERMEDIA,colombia,5.1890264,0.7022866
+Platanitos,Costa Rica,dish,DIFÍCIL,costa rica,3.6379685,2.4761598
+gastronomía de la provincia de limón,costa rica,dish,FÁCIL,costa rica,3.4568746,4.0409603
+Dieta prehispánica de Mesoamérica,Costa Rica,dish,INTERMEDIA,costa rica,3.4011497,5.061847
+Bolitoglossa sooyorum,Costa Rica,fauna,DIFÍCIL,costa rica,3.8385096,-1.0930964
+Pygmodeon excelsum,Costa Rica,fauna,FÁCIL,costa rica,4.011748,-2.3823082
+Amorbia cocori,Costa Rica,fauna,INTERMEDIA,costa rica,4.0689454,2.2630737
+Epiphyllum cartagense,Costa Rica,flora,DIFÍCIL,costa rica,3.7151754,-0.8393825
+Epiphyllum grandilobum,Costa Rica,flora,FÁCIL,costa rica,5.4447126,-1.7973105
+ulmus mexicana,costa rica,flora,INTERMEDIA,costa rica,3.937118,-0.7806279
+Riftia pachyptila,Costa Rica,geography,DIFÍCIL,costa rica,3.531039,-0.8538826
+Chaetodontoplus melanosoma,Costa Rica,geography,FÁCIL,costa rica,3.7965033,-2.1138322
+Panesthia angustipennis,Costa Rica,geography,INTERMEDIA,costa rica,4.663532,-0.271517
+pirata sin cabeza,costa rica,tradition,DIFÍCIL,costa rica,1.1349386,1.6859235
+mitología guatusa,costa rica,tradition,FÁCIL,costa rica,1.6553062,2.759892
+Cuentos viejos,Costa Rica,tradition,INTERMEDIA,costa rica,1.5352185,2.1996248
+Coppelia (empresa),Cuba,dish,DIFÍCIL,cuba,1.7480397,1.3284835
+cojito,cuba,dish,FÁCIL,cuba,2.3099887,4.36154
+pan cubano,cuba,dish,INTERMEDIA,cuba,2.8341749,4.6600537
+Mesocapromys auritus,Cuba,fauna,DIFÍCIL,cuba,3.3136961,-0.67828625
+Eleutherodactylus bartonsmithi,Cuba,fauna,FÁCIL,cuba,3.9050946,-2.0603194
+Leptostylus heticus,Cuba,fauna,INTERMEDIA,cuba,1.3980595,0.25917634
+Hemithrinax,Cuba,flora,DIFÍCIL,cuba,1.488692,0.42056835
+Ximenia roigii,Cuba,flora,FÁCIL,cuba,4.5301747,-2.284582
+Machaonia havanensis,Cuba,flora,INTERMEDIA,cuba,4.7832923,-0.81054366
+Torrey Canyon,Cuba,geography,DIFÍCIL,cuba,2.9333394,0.65580004
+Tormenta tropical Ana (2003),Cuba,geography,FÁCIL,cuba,2.011226,0.4523246
+SS Yarmouth,Cuba,geography,INTERMEDIA,cuba,1.1598014,0.9503291
+clave (instrumento de percusión),cuba,object,DIFÍCIL,cuba,0.9196675,1.6586634
+guataca,cuba,object,FÁCIL,cuba,2.525591,3.3633454
+Bongó,Cuba,object,INTERMEDIA,cuba,1.3039466,1.0541223
+fritada (ecuador),ecuador,dish,DIFÍCIL,ecuador,3.4024777,4.7337766
+Corporación Fernández,Ecuador,dish,FÁCIL,ecuador,3.5896773,2.0684307
+mote pillo,ecuador,dish,INTERMEDIA,ecuador,3.345446,5.3129973
+Pithecia aequatorialis,Ecuador,fauna,DIFÍCIL,ecuador,3.1443858,-0.5347154
+Puffinus subalaris,Ecuador,fauna,FÁCIL,ecuador,4.103611,-2.301748
+Knodus septentrionalis,Ecuador,fauna,INTERMEDIA,ecuador,4.945398,0.5990532
+Brachyotum confertum,Ecuador,flora,DIFÍCIL,ecuador,3.7459223,-0.11292567
+ecuadendron,ecuador,flora,FÁCIL,ecuador,5.2677,-1.7514343
+Anthurium andraeanum,Ecuador,flora,INTERMEDIA,ecuador,4.5481315,-1.4977803
+Parroquia Sucre (Guayaquil),Ecuador,geography,DIFÍCIL,ecuador,0.82455146,1.053822
+Cantón Eloy Alfaro,Ecuador,geography,FÁCIL,ecuador,4.573113,1.3176237
+Cantón El Carmen,Ecuador,geography,INTERMEDIA,ecuador,4.3956327,1.5990807
+diablada de píllaro,ecuador,tradition,DIFÍCIL,ecuador,1.6414336,1.6485924
+festival concha acústica villa flora,ecuador,tradition,FÁCIL,ecuador,2.3104098,1.9499195
+Warmi tukushka,Ecuador,tradition,INTERMEDIA,ecuador,1.4707716,3.2246406
+Bebidas de El Salvador,El Salvador,dish,DIFÍCIL,el salvador,3.5142775,3.5375748
+Bebidas de El Salvador,El Salvador,dish,FÁCIL,el salvador,3.6033065,3.4762936
+gallo en chicha,el salvador,dish,INTERMEDIA,el salvador,3.2088096,5.4291587
+Geophis fulvoguttatus,El Salvador,fauna,DIFÍCIL,el salvador,3.7401762,-0.71834314
+Bolitoglossa celaque,El Salvador,fauna,FÁCIL,el salvador,4.427115,-2.107239
+Tropidodipsas sartorii,El Salvador,fauna,INTERMEDIA,el salvador,4.7431784,-0.0050773537
+ipomoea nil,el salvador,flora,DIFÍCIL,el salvador,5.3197646,-1.7526082
+adiantum andicola,el salvador,flora,FÁCIL,el salvador,4.4630737,-1.9486792
+Podocarpus oleifolius,El Salvador,flora,INTERMEDIA,el salvador,4.924671,-0.17730463
+Citalá,El Salvador,geography,DIFÍCIL,el salvador,2.0678902,3.6267118
+Arambala,El Salvador,geography,FÁCIL,el salvador,4.787642,0.8625779
+Nueva Esperanza (El Salvador),El Salvador,geography,INTERMEDIA,el salvador,5.23095,0.8950387
+mataniño (gastronomía salvadoreña),el salvador,tradition,DIFÍCIL,el salvador,3.4040115,3.2743459
+Mitología pipil,El Salvador,tradition,FÁCIL,el salvador,1.7447759,3.249388
+yuca con chicharrón,el salvador,tradition,INTERMEDIA,el salvador,3.1287167,5.260198
+pepián (guatemala),guatemala,dish,DIFÍCIL,guatemala,0.98108685,1.2262745
+Pachay,Guatemala,dish,FÁCIL,guatemala,1.835578,3.482353
+chirmol de zapatero,guatemala,dish,INTERMEDIA,guatemala,3.4574115,2.8207161
+Anolis cristifer,Guatemala,fauna,DIFÍCIL,guatemala,4.427146,-0.99407876
+Anolis matudai,Guatemala,fauna,FÁCIL,guatemala,4.3508887,-2.0698833
+Ecnomiohyla minera,Guatemala,fauna,INTERMEDIA,guatemala,4.779602,-0.9586412
+Abarema cochliacarpos,guatemala,flora,DIFÍCIL,guatemala,1.4812046,0.7538052
+Lemaireocereus lepidanthus,Guatemala,flora,FÁCIL,guatemala,3.6754627,-2.1668923
+dyssodia decipiens,guatemala,flora,INTERMEDIA,guatemala,4.919761,-0.7326562
+Reserva de la biosfera transfronteriza Trifinio-Fraternidad,Guatemala,geography,DIFÍCIL,guatemala,3.620458,-0.60527045
+Río Las Vacas,Guatemala,geography,FÁCIL,guatemala,4.198995,1.5240445
+Fundación Guatemalteca de Antropología Forense,Guatemala,geography,INTERMEDIA,guatemala,2.901295,2.7476132
+baile de la conquista,guatemala,tradition,DIFÍCIL,guatemala,1.582537,2.6109574
+huelga de dolores,guatemala,tradition,FÁCIL,guatemala,3.371251,1.6615112
+leyendas de guatemala,guatemala,tradition,INTERMEDIA,guatemala,2.4263806,2.9191377
+nacatamal,honduras,dish,DIFÍCIL,honduras,1.8091251,2.3622272
+Alcitrón,Honduras,dish,FÁCIL,honduras,3.4022248,5.233582
+café de honduras,honduras,dish,INTERMEDIA,honduras,3.6632109,3.0723321
+Laguna de Ticamaya,Honduras,fauna,DIFÍCIL,honduras,3.9189088,1.2555586
+Anolis bicaorum,Honduras,fauna,FÁCIL,honduras,4.3031225,-2.056803
+Hidrografía de Honduras,Honduras,fauna,INTERMEDIA,honduras,4.0555735,1.6411108
+Abarema filamentosa,honduras,flora,DIFÍCIL,honduras,1.4391065,0.69772977
+Hondurodendron,Honduras,flora,FÁCIL,honduras,5.3801565,-1.9873899
+Abarema turbinata,honduras,flora,INTERMEDIA,honduras,4.6688633,0.8929295
+Parque nacional Capiro y Calentura,Honduras,geography,DIFÍCIL,honduras,3.9028993,0.51673543
+Parque nacional Cerro Azul Meámbar,Honduras,geography,FÁCIL,honduras,4.030184,0.46558222
+Isla del Toro,Honduras,geography,INTERMEDIA,honduras,3.9888918,2.0675278
+jorge montenegro (escritor),honduras,tradition,DIFÍCIL,honduras,0.92474276,1.8214879
+mitología tolupan,honduras,tradition,FÁCIL,honduras,1.5775033,2.6522353
+El Picudo,Honduras,tradition,INTERMEDIA,honduras,4.6846695,-1.1706871
+sal de gusano,méxico,dish,DIFÍCIL,mexico,3.1279693,4.9931536
+chogosta,méxico,dish,FÁCIL,mexico,2.1913831,4.0589757
+gansito,méxico,dish,INTERMEDIA,mexico,2.9433823,4.8410864
+Obrium planicolle,México,fauna,DIFÍCIL,mexico,1.5746987,0.311977
+Thorius lunaris,México,fauna,FÁCIL,mexico,4.442165,-2.4680417
+Triprion spinosus,México,fauna,INTERMEDIA,mexico,4.962348,-0.017857922
+loeselia mexicana,méxico,flora,DIFÍCIL,mexico,3.1449924,3.1188896
+sedum craigii,méxico,flora,FÁCIL,mexico,5.5300646,-1.8792998
+barbosella prorepens,méxico,flora,INTERMEDIA,mexico,5.0901875,0.23497823
+gorky gonzález,méxico,object,DIFÍCIL,mexico,0.2168018,1.4094802
+chirimía,méxico,object,FÁCIL,mexico,2.105108,3.8674316
+Guadalupe Vázquez Luna,México,object,INTERMEDIA,mexico,0.7493361,1.756109
+Huipil Oaxaqueño,México,tradition,DIFÍCIL,mexico,2.2264655,3.7686625
+El Chapo de Sinaloa,México,tradition,FÁCIL,mexico,0.7360955,2.555996
+Lupe Mejía,México,tradition,INTERMEDIA,mexico,-0.11004233,1.5862412
+pinolillo,nicaragua,dish,DIFÍCIL,nicaragua,3.3662007,3.0881028
+gastronomía de nicaragua,nicaragua,dish,FÁCIL,nicaragua,3.5127604,3.2213871
+cushta,nicaragua,dish,INTERMEDIA,nicaragua,3.241919,5.18355
+Amphilophus zaliosus,Nicaragua,fauna,DIFÍCIL,nicaragua,3.4587164,-0.85642654
+Astyanax nicaraguensis,Nicaragua,fauna,FÁCIL,nicaragua,4.5133667,-2.3363874
+Oedipina koehleri,Nicaragua,fauna,INTERMEDIA,nicaragua,4.903641,0.44800824
+Cordia alba,Nicaragua,flora,DIFÍCIL,nicaragua,5.5931716,-1.7794636
+Clusia croatii,Nicaragua,flora,FÁCIL,nicaragua,4.1982737,-1.8284459
+Clusia uvitana,Nicaragua,flora,INTERMEDIA,nicaragua,3.8623567,-1.0434036
+Desembocadura de Río Grande,Nicaragua,geography,DIFÍCIL,nicaragua,4.494794,1.6886591
+Pablo Ervin Schmitz Simon,Nicaragua,geography,FÁCIL,nicaragua,-0.21853961,2.0158007
+Santo Tomás del Norte,Nicaragua,geography,INTERMEDIA,nicaragua,4.7027793,1.4014817
+fiesta de los agüizotes,nicaragua,tradition,DIFÍCIL,nicaragua,2.1545084,2.3147862
+torovenado,nicaragua,tradition,FÁCIL,nicaragua,2.194063,3.8980076
+Salvador Cardenal Argüello,Nicaragua,tradition,INTERMEDIA,nicaragua,0.7783444,1.8969238
+guacho de arroz,panamá,dish,DIFÍCIL,panama,2.9929347,5.602898
+Hojaldra,Panamá,dish,FÁCIL,panama,1.9411182,4.0318656
+guacho de arroz,panamá,dish,INTERMEDIA,panama,3.0101042,5.554143
+Pseudosparna dimitrisi,Panamá,fauna,DIFÍCIL,panama,1.4678794,0.19789562
+Ara ararauna,Panamá,fauna,FÁCIL,panama,3.9228895,-2.4119325
+Tmarus rubinus,Panamá,fauna,INTERMEDIA,panama,4.996814,0.024720129
+La Gloria (Bocas del Toro),Panamá,geography,DIFÍCIL,panama,4.5841475,1.9158413
+Los Milagros,Panamá,geography,FÁCIL,panama,5.285827,0.8479935
+Serranía de Majé,Panamá,geography,INTERMEDIA,panama,4.8770695,0.68855566
+almirez,panamá,object,DIFÍCIL,panama,3.1547174,4.6282477
+mejorana (instrumento musical),panamá,object,FÁCIL,panama,2.8683567,4.2228246
+sombrero pintao,panamá,object,INTERMEDIA,panama,3.419194,2.6097615
+Festival Nacional del Manito,Panamá,tradition,DIFÍCIL,panama,2.385071,1.999603
+Círio de Nazaré,panamá,tradition,FÁCIL,panama,1.972249,2.9086597
+Tamborito,Panamá,tradition,INTERMEDIA,panama,0.34131828,3.0280747
+Copetín (Argentina),Paraguay,dish,DIFÍCIL,paraguay,3.1910565,4.4616537
+Torta frita,Paraguay,dish,FÁCIL,paraguay,2.7996273,4.89793
+sándwich mixto,paraguay,dish,INTERMEDIA,paraguay,2.796384,4.9911275
+Alstroemeria apertiflora,Paraguay,flora,DIFÍCIL,paraguay,4.0109057,-1.2799118
+Discocactus hartmannii,Paraguay,flora,FÁCIL,paraguay,5.302419,-1.9714079
+Cereus lanosus,Paraguay,flora,INTERMEDIA,paraguay,4.5686603,-0.5570261
+Mata atlántica,Paraguay,geography,DIFÍCIL,paraguay,4.610611,1.9444052
+República de Tucumán,Paraguay,geography,FÁCIL,paraguay,1.299353,2.0819871
+Ricardo Brugada (Asunción),Paraguay,geography,INTERMEDIA,paraguay,4.723697,0.76716304
+tacuapú,paraguay,object,DIFÍCIL,paraguay,1.640487,2.6975775
+asociación de artesanos de tobati,paraguay,object,FÁCIL,paraguay,1.7916479,1.8074628
+rosa brítez,paraguay,object,INTERMEDIA,paraguay,0.06537645,1.2279245
+Koki Ruiz,Paraguay,tradition,DIFÍCIL,paraguay,0.69154435,1.5188861
+GRES Beija-Flor,Paraguay,tradition,FÁCIL,paraguay,2.0048966,3.6572685
+Tumba del indio desconocido,Paraguay,tradition,INTERMEDIA,paraguay,1.2004874,2.240359
+aguadito de pollo,perú,dish,DIFÍCIL,peru,3.1431332,4.3116026
+arroz zambito,perú,dish,FÁCIL,peru,2.8996303,5.578566
+Barquillo,Perú,dish,INTERMEDIA,peru,2.429275,4.508436
+Cranioleuca weskei,Perú,fauna,DIFÍCIL,peru,2.6255026,-0.24591206
+Phanaeus lecourti,Perú,fauna,FÁCIL,peru,3.6525245,-2.156823
+Dendropsophus delarivai,Perú,fauna,INTERMEDIA,peru,4.5696373,0.5204791
+Corryocactus serpens,Perú,flora,DIFÍCIL,peru,3.4247198,-0.77058876
+Samaipaticereus herrerae,Perú,flora,FÁCIL,peru,5.503422,-1.9672539
+Epidendrum secundum,Perú,flora,INTERMEDIA,peru,4.898033,-0.5770355
+Chivay,Perú,geography,DIFÍCIL,peru,3.356162,1.1921698
+Parque nacional Otishi,Perú,geography,FÁCIL,peru,4.05958,0.6148956
+Pomacanchi,Perú,geography,INTERMEDIA,peru,3.9500546,2.2208717
+Leyendas sobre el origen del Imperio inca,Perú,tradition,DIFÍCIL,peru,1.5470797,2.6929123
+Novalima,Perú,tradition,FÁCIL,peru,0.2886886,2.8994462
+Danzas del Perú,Perú,tradition,INTERMEDIA,peru,2.150106,2.303965
+The One (cerveza),República Dominicana,dish,DIFÍCIL,republica dominicana,3.4727576,3.5535624
+Presidente (cerveza),República Dominicana,dish,FÁCIL,republica dominicana,3.4186275,3.7379043
+mike mercedes,república dominicana,dish,INTERMEDIA,republica dominicana,-0.3393657,1.5786042
+Eleutherodactylus flavescens,República Dominicana,fauna,DIFÍCIL,republica dominicana,4.0378814,-1.0025191
+Eleutherodactylus paralius,República Dominicana,fauna,FÁCIL,republica dominicana,3.7479749,-2.0918674
+Dolichorhinotermes dominicanus,República Dominicana,fauna,INTERMEDIA,republica dominicana,1.2072433,0.8061274
+Bletia patula,República Dominicana,flora,DIFÍCIL,republica dominicana,1.5281117,0.56556904
+Consolea picardae,República Dominicana,flora,FÁCIL,republica dominicana,4.5335574,-2.1756668
+Brassia caudata,República Dominicana,flora,INTERMEDIA,republica dominicana,5.106686,-2.212367
+Castillo (Duarte),República Dominicana,geography,DIFÍCIL,republica dominicana,1.5637723,1.6739724
+Bahía Escocesa,República Dominicana,geography,FÁCIL,republica dominicana,4.91752,1.0180167
+Los Mina,República Dominicana,geography,INTERMEDIA,republica dominicana,4.1540647,1.4857932
+tambora dominicana,república dominicana,object,DIFÍCIL,republica dominicana,0.5074999,3.2744389
+tambora dominicana,república dominicana,object,FÁCIL,republica dominicana,0.37421432,3.0837307
+tambora dominicana,república dominicana,object,INTERMEDIA,republica dominicana,0.49398914,3.289474
+Fiesta Capital de la Uva y el Vino,Uruguay,dish,DIFÍCIL,uruguay,2.424058,2.0598774
+escalera al cielo (trago),uruguay,dish,FÁCIL,uruguay,2.3096607,3.9129379
+eugenia stipitata,uruguay,dish,INTERMEDIA,uruguay,4.9625735,-0.037203774
+Holochilus brasiliensis,Uruguay,fauna,DIFÍCIL,uruguay,3.9243703,-1.0612552
+Laguna de Rocha (Uruguay),Uruguay,fauna,FÁCIL,uruguay,4.006424,1.3469768
+Rhinella schneideri,Uruguay,fauna,INTERMEDIA,uruguay,4.9983497,-0.80782187
+sebastiania commersoniana,uruguay,flora,DIFÍCIL,uruguay,3.873235,-0.36483037
+azara uruguayensis,uruguay,flora,FÁCIL,uruguay,4.5516334,-2.3421571
+Sapium glandulosum,Uruguay,flora,INTERMEDIA,uruguay,5.174971,-0.37018308
+Fraile Muerto (Uruguay),Uruguay,geography,DIFÍCIL,uruguay,0.9056241,0.9035005
+Arco de Salinas,Uruguay,geography,FÁCIL,uruguay,1.9460464,3.2166326
+Faro de Cabo Polonio,Uruguay,geography,INTERMEDIA,uruguay,1.2172809,1.059581
+El Familiar,Uruguay,tradition,DIFÍCIL,uruguay,2.7467122,2.6004424
+rafael antognazza,uruguay,tradition,FÁCIL,uruguay,-0.07354708,1.9126923
+pilsen rock (uruguay),uruguay,tradition,INTERMEDIA,uruguay,1.2992022,1.2034228
+Bienmesabe (postre),Venezuela,dish,DIFÍCIL,venezuela,3.1882875,4.2530594
+amargo de angostura,venezuela,dish,FÁCIL,venezuela,1.8778336,3.5768178
+Antipasto,Venezuela,dish,INTERMEDIA,venezuela,3.2844257,5.330781
+Andersonoplatus laculata,Venezuela,fauna,DIFÍCIL,venezuela,4.096272,-1.0200896
+Arremon phaeopleurus,Venezuela,fauna,FÁCIL,venezuela,3.6163354,-2.2664127
+Scinax danae,Venezuela,fauna,INTERMEDIA,venezuela,5.0001903,0.6709585
+Caucagua,Venezuela,geography,DIFÍCIL,venezuela,0.6922943,1.273052
+Quebrada El Ávila,Venezuela,geography,FÁCIL,venezuela,4.447909,1.2457305
+Santa María de Tiznados,Venezuela,geography,INTERMEDIA,venezuela,4.0249815,2.1894183
+kimberly dos ramos,venezuela,object,DIFÍCIL,venezuela,0.25125328,1.5151268
+yoletti cabrera,venezuela,object,FÁCIL,venezuela,0.017277196,2.2008858
+argenis rea,venezuela,object,INTERMEDIA,venezuela,0.35143661,2.2893465
+Bandolín tachirense,Venezuela,tradition,DIFÍCIL,venezuela,0.8280147,3.2871103
+Armando Molero,Venezuela,tradition,FÁCIL,venezuela,-0.14462584,1.9950771
+Scarlett Linares,Venezuela,tradition,INTERMEDIA,venezuela,-0.19222012,1.3503468

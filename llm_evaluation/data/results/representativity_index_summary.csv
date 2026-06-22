@@ -1,0 +1,17 @@
+model,grupo,rank,pais,pct_alucinacion,residual_alucinacion,IR,interpretacion
+Claude,top_5,1,guatemala,40.0,16.34,46.54,riesgo moderado
+Claude,top_5,2,honduras,40.0,16.34,46.54,riesgo moderado
+Claude,top_5,3,venezuela,40.0,15.23,46.09,riesgo moderado
+Claude,top_5,4,paraguay,26.67,4.82,27.96,riesgo moderado
+Claude,top_5,5,costa rica,26.67,3.01,27.47,riesgo moderado
+Claude,bottom_3,1,chile,6.67,-17.4,6.67,riesgo bajo
+Claude,bottom_3,2,bolivia,20.0,-6.99,20.0,riesgo bajo
+Claude,bottom_3,3,colombia,20.0,-6.99,20.0,riesgo bajo
+GPT,top_5,1,argentina,53.33,22.44,65.3,riesgo alto: alucinación elevada no explicada por composición
+GPT,top_5,2,guatemala,46.67,15.78,54.03,riesgo alto: alucinación elevada no explicada por composición
+GPT,top_5,3,venezuela,46.67,12.6,52.55,riesgo alto: alucinación elevada no explicada por composición
+GPT,top_5,4,honduras,40.0,9.11,43.64,riesgo moderado
+GPT,top_5,5,nicaragua,40.0,9.11,43.64,riesgo moderado
+GPT,bottom_3,1,el salvador,13.33,-17.56,13.33,riesgo bajo
+GPT,bottom_3,2,peru,13.33,-17.56,13.33,riesgo bajo
+GPT,bottom_3,3,republica dominicana,13.33,-18.95,13.33,riesgo bajo

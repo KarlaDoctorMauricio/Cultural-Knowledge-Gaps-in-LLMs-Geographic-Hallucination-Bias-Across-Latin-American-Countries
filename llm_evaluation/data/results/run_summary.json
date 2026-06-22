@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-06-21T00:22:45.394189+00:00",
+  "config_name": "CHOCLO",
+  "best_method": "GPT",
+  "available_models": [
+    "GPT",
+    "Claude"
+  ],
+  "unavailable_models": [],
+  "latamgpt_note": null,
+  "output_files": {
+    "evaluation_results.csv": "G:\\F-KADM\\llm_evaluation\\data\\results\\evaluation_results.csv",
+    "metrics_summary.csv": "G:\\F-KADM\\llm_evaluation\\data\\results\\metrics_summary.csv",
+    "metrics_summary_post.csv": "G:\\F-KADM\\llm_evaluation\\data\\results\\metrics_summary_post.csv",
+    "group_mae_pais.csv": "G:\\F-KADM\\llm_evaluation\\data\\results\\group_mae_pais.csv",
+    "group_mae_interseccion.csv": "G:\\F-KADM\\llm_evaluation\\data\\results\\group_mae_interseccion.csv",
+    "mae_by_category.csv": "G:\\F-KADM\\llm_evaluation\\data\\results\\mae_by_category.csv",
+    "group_mae_pais_post.csv": "G:\\F-KADM\\llm_evaluation\\data\\results\\group_mae_pais_post.csv",
+    "group_mae_interseccion_post.csv": "G:\\F-KADM\\llm_evaluation\\data\\results\\group_mae_interseccion_post.csv",
+    "mae_by_category_post.csv": "G:\\F-KADM\\llm_evaluation\\data\\results\\mae_by_category_post.csv",
+    "model_selection.csv": "G:\\F-KADM\\llm_evaluation\\data\\results\\model_selection.csv",
+    "response_quality_breakdown.csv": "G:\\F-KADM\\llm_evaluation\\data\\results\\response_quality_breakdown.csv",
+    "hallucination_by_country.csv": "G:\\F-KADM\\llm_evaluation\\data\\results\\hallucination_by_country.csv",
+    "low_score_classifications.csv": "G:\\F-KADM\\llm_evaluation\\data\\results\\low_score_classifications.csv"
+  },
+  "evaluation_generated_at": "2026-06-21T00:22:45.394189+00:00",
+  "judge_rerun": {
+    "generated_at": "2026-06-21T03:09:01.425649+00:00",
+    "judge_prompt_version": "v2_fixed_system_prompt",
+    "n_runs": 3,
+    "pct_filas_estables": 98.33,
+    "source_of_truth": "judge_final_results.csv",
+    "archived_pre_fix_dir": "G:\\F-KADM\\llm_evaluation\\data\\results\\archive_pre_fix"
+  },
+  "judge_generated_at": "2026-06-21T03:09:01.425649+00:00",
+  "judge_prompt_version": "v2_fixed_system_prompt",
+  "judge_source_file": "judge_final_results.csv"
+}

@@ -1,0 +1,3 @@
+model,bias_alucinacion,max_pais_alucinacion,min_pais_alucinacion,max_pct_alucinacion,min_pct_alucinacion,bias_correcta,max_pais_correcta,min_pais_correcta,max_pct_correcta,min_pct_correcta,bias_abstencion,max_pais_abstencion,min_pais_abstencion,max_pct_abstencion,min_pct_abstencion
+Claude,33.33,venezuela,chile,40.0,6.67,53.33,peru,honduras,60.0,6.67,33.33,argentina,guatemala,33.33,0.0
+GPT,40.0,argentina,el salvador,46.67,6.67,33.33,cuba,bolivia,40.0,6.67,13.33,venezuela,argentina,13.33,0.0

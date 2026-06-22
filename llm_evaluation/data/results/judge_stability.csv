@@ -1,0 +1,541 @@
+row_index,model,pais,label_run1,label_run2,label_run3,stable,final_label,variation_detail
+0,GPT,argentina,parcial,parcial,parcial,True,parcial,parcial
+1,GPT,argentina,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+2,GPT,argentina,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+3,GPT,argentina,parcial,parcial,parcial,True,parcial,parcial
+4,GPT,argentina,correcta,correcta,correcta,True,correcta,correcta
+5,GPT,argentina,parcial,parcial,parcial,True,parcial,parcial
+6,GPT,argentina,parcial,parcial,parcial,True,parcial,parcial
+7,GPT,argentina,correcta,correcta,correcta,True,correcta,correcta
+8,GPT,argentina,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+9,GPT,argentina,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+10,GPT,argentina,parcial,parcial,parcial,True,parcial,parcial
+11,GPT,argentina,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+12,GPT,argentina,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+13,GPT,argentina,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+14,GPT,argentina,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+15,GPT,bolivia,parcial,parcial,parcial,True,parcial,parcial
+16,GPT,bolivia,correcta,correcta,correcta,True,correcta,correcta
+17,GPT,bolivia,parcial,parcial,parcial,True,parcial,parcial
+18,GPT,bolivia,parcial,parcial,parcial,True,parcial,parcial
+19,GPT,bolivia,parcial,parcial,parcial,True,parcial,parcial
+20,GPT,bolivia,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+21,GPT,bolivia,parcial,parcial,parcial,True,parcial,parcial
+22,GPT,bolivia,correcta,correcta,correcta,True,correcta,correcta
+23,GPT,bolivia,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+24,GPT,bolivia,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+25,GPT,bolivia,abstencion,abstencion,abstencion,True,abstencion,abstencion
+26,GPT,bolivia,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+27,GPT,bolivia,parcial,parcial,parcial,True,parcial,parcial
+28,GPT,bolivia,parcial,parcial,parcial,True,parcial,parcial
+29,GPT,bolivia,parcial,parcial,parcial,True,parcial,parcial
+30,GPT,chile,parcial,parcial,parcial,True,parcial,parcial
+31,GPT,chile,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+32,GPT,chile,parcial,parcial,parcial,True,parcial,parcial
+33,GPT,chile,parcial,parcial,parcial,True,parcial,parcial
+34,GPT,chile,parcial,parcial,parcial,True,parcial,parcial
+35,GPT,chile,parcial,parcial,parcial,True,parcial,parcial
+36,GPT,chile,parcial,parcial,parcial,True,parcial,parcial
+37,GPT,chile,parcial,parcial,parcial,True,parcial,parcial
+38,GPT,chile,correcta,correcta,correcta,True,correcta,correcta
+39,GPT,chile,parcial,parcial,parcial,True,parcial,parcial
+40,GPT,chile,correcta,correcta,correcta,True,correcta,correcta
+41,GPT,chile,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+42,GPT,chile,parcial,parcial,parcial,True,parcial,parcial
+43,GPT,chile,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+44,GPT,chile,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+45,GPT,colombia,parcial,parcial,parcial,True,parcial,parcial
+46,GPT,colombia,parcial,parcial,parcial,True,parcial,parcial
+47,GPT,colombia,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+48,GPT,colombia,parcial,parcial,parcial,True,parcial,parcial
+49,GPT,colombia,correcta,correcta,correcta,True,correcta,correcta
+50,GPT,colombia,parcial,parcial,parcial,True,parcial,parcial
+51,GPT,colombia,parcial,parcial,parcial,True,parcial,parcial
+52,GPT,colombia,correcta,correcta,correcta,True,correcta,correcta
+53,GPT,colombia,correcta,correcta,correcta,True,correcta,correcta
+54,GPT,colombia,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+55,GPT,colombia,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+56,GPT,colombia,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+57,GPT,colombia,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+58,GPT,colombia,correcta,correcta,correcta,True,correcta,correcta
+59,GPT,colombia,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+60,GPT,costa rica,parcial,parcial,parcial,True,parcial,parcial
+61,GPT,costa rica,correcta,correcta,correcta,True,correcta,correcta
+62,GPT,costa rica,parcial,parcial,parcial,True,parcial,parcial
+63,GPT,costa rica,correcta,correcta,correcta,True,correcta,correcta
+64,GPT,costa rica,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+65,GPT,costa rica,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+66,GPT,costa rica,parcial,parcial,parcial,True,parcial,parcial
+67,GPT,costa rica,correcta,correcta,correcta,True,correcta,correcta
+68,GPT,costa rica,parcial,parcial,parcial,True,parcial,parcial
+69,GPT,costa rica,correcta,correcta,correcta,True,correcta,correcta
+70,GPT,costa rica,parcial,parcial,parcial,True,parcial,parcial
+71,GPT,costa rica,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+72,GPT,costa rica,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+73,GPT,costa rica,parcial,parcial,parcial,True,parcial,parcial
+74,GPT,costa rica,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+75,GPT,cuba,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+76,GPT,cuba,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+77,GPT,cuba,correcta,correcta,correcta,True,correcta,correcta
+78,GPT,cuba,parcial,parcial,parcial,True,parcial,parcial
+79,GPT,cuba,correcta,correcta,correcta,True,correcta,correcta
+80,GPT,cuba,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+81,GPT,cuba,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+82,GPT,cuba,correcta,correcta,correcta,True,correcta,correcta
+83,GPT,cuba,parcial,parcial,parcial,True,parcial,parcial
+84,GPT,cuba,correcta,correcta,correcta,True,correcta,correcta
+85,GPT,cuba,correcta,correcta,correcta,True,correcta,correcta
+86,GPT,cuba,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+87,GPT,cuba,parcial,parcial,parcial,True,parcial,parcial
+88,GPT,cuba,correcta,correcta,correcta,True,correcta,correcta
+89,GPT,cuba,correcta,correcta,correcta,True,correcta,correcta
+90,GPT,ecuador,parcial,parcial,parcial,True,parcial,parcial
+91,GPT,ecuador,parcial,parcial,parcial,True,parcial,parcial
+92,GPT,ecuador,parcial,parcial,parcial,True,parcial,parcial
+93,GPT,ecuador,parcial,parcial,parcial,True,parcial,parcial
+94,GPT,ecuador,correcta,correcta,correcta,True,correcta,correcta
+95,GPT,ecuador,parcial,parcial,parcial,True,parcial,parcial
+96,GPT,ecuador,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+97,GPT,ecuador,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+98,GPT,ecuador,correcta,correcta,correcta,True,correcta,correcta
+99,GPT,ecuador,parcial,parcial,parcial,True,parcial,parcial
+100,GPT,ecuador,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+101,GPT,ecuador,correcta,correcta,correcta,True,correcta,correcta
+102,GPT,ecuador,parcial,parcial,parcial,True,parcial,parcial
+103,GPT,ecuador,parcial,parcial,parcial,True,parcial,parcial
+104,GPT,ecuador,parcial,parcial,parcial,True,parcial,parcial
+105,GPT,el salvador,parcial,parcial,parcial,True,parcial,parcial
+106,GPT,el salvador,parcial,parcial,parcial,True,parcial,parcial
+107,GPT,el salvador,parcial,parcial,parcial,True,parcial,parcial
+108,GPT,el salvador,parcial,parcial,parcial,True,parcial,parcial
+109,GPT,el salvador,correcta,correcta,correcta,True,correcta,correcta
+110,GPT,el salvador,parcial,parcial,parcial,True,parcial,parcial
+111,GPT,el salvador,parcial,parcial,parcial,True,parcial,parcial
+112,GPT,el salvador,correcta,correcta,correcta,True,correcta,correcta
+113,GPT,el salvador,parcial,parcial,parcial,True,parcial,parcial
+114,GPT,el salvador,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+115,GPT,el salvador,parcial,parcial,parcial,True,parcial,parcial
+116,GPT,el salvador,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+117,GPT,el salvador,parcial,parcial,parcial,True,parcial,parcial
+118,GPT,el salvador,correcta,correcta,correcta,True,correcta,correcta
+119,GPT,el salvador,parcial,parcial,parcial,True,parcial,parcial
+120,GPT,guatemala,correcta,correcta,correcta,True,correcta,correcta
+121,GPT,guatemala,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+122,GPT,guatemala,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+123,GPT,guatemala,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+124,GPT,guatemala,correcta,correcta,correcta,True,correcta,correcta
+125,GPT,guatemala,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+126,GPT,guatemala,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+127,GPT,guatemala,correcta,correcta,correcta,True,correcta,correcta
+128,GPT,guatemala,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+129,GPT,guatemala,parcial,parcial,parcial,True,parcial,parcial
+130,GPT,guatemala,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+131,GPT,guatemala,parcial,parcial,parcial,True,parcial,parcial
+132,GPT,guatemala,parcial,parcial,parcial,True,parcial,parcial
+133,GPT,guatemala,parcial,parcial,parcial,True,parcial,parcial
+134,GPT,guatemala,parcial,parcial,parcial,True,parcial,parcial
+135,GPT,honduras,parcial,parcial,parcial,True,parcial,parcial
+136,GPT,honduras,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+137,GPT,honduras,parcial,parcial,parcial,True,parcial,parcial
+138,GPT,honduras,parcial,parcial,parcial,True,parcial,parcial
+139,GPT,honduras,correcta,correcta,correcta,True,correcta,correcta
+140,GPT,honduras,parcial,parcial,parcial,True,parcial,parcial
+141,GPT,honduras,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+142,GPT,honduras,parcial,parcial,parcial,True,parcial,parcial
+143,GPT,honduras,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+144,GPT,honduras,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+145,GPT,honduras,correcta,correcta,correcta,True,correcta,correcta
+146,GPT,honduras,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+147,GPT,honduras,parcial,parcial,parcial,True,parcial,parcial
+148,GPT,honduras,correcta,correcta,correcta,True,correcta,correcta
+149,GPT,honduras,alucinacion,parcial,alucinacion,False,alucinacion,run1=alucinacion; run2=parcial; run3=alucinacion
+150,GPT,mexico,parcial,parcial,parcial,True,parcial,parcial
+151,GPT,mexico,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+152,GPT,mexico,parcial,parcial,parcial,True,parcial,parcial
+153,GPT,mexico,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+154,GPT,mexico,correcta,parcial,parcial,False,parcial,run1=correcta; run2=parcial; run3=parcial
+155,GPT,mexico,parcial,parcial,parcial,True,parcial,parcial
+156,GPT,mexico,parcial,parcial,parcial,True,parcial,parcial
+157,GPT,mexico,correcta,correcta,correcta,True,correcta,correcta
+158,GPT,mexico,parcial,parcial,parcial,True,parcial,parcial
+159,GPT,mexico,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+160,GPT,mexico,correcta,correcta,correcta,True,correcta,correcta
+161,GPT,mexico,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+162,GPT,mexico,correcta,correcta,correcta,True,correcta,correcta
+163,GPT,mexico,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+164,GPT,mexico,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+165,GPT,nicaragua,correcta,correcta,correcta,True,correcta,correcta
+166,GPT,nicaragua,parcial,parcial,parcial,True,parcial,parcial
+167,GPT,nicaragua,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+168,GPT,nicaragua,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+169,GPT,nicaragua,parcial,parcial,parcial,True,parcial,parcial
+170,GPT,nicaragua,parcial,parcial,parcial,True,parcial,parcial
+171,GPT,nicaragua,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+172,GPT,nicaragua,correcta,correcta,correcta,True,correcta,correcta
+173,GPT,nicaragua,parcial,parcial,parcial,True,parcial,parcial
+174,GPT,nicaragua,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+175,GPT,nicaragua,abstencion,abstencion,abstencion,True,abstencion,abstencion
+176,GPT,nicaragua,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+177,GPT,nicaragua,parcial,parcial,parcial,True,parcial,parcial
+178,GPT,nicaragua,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+179,GPT,nicaragua,parcial,parcial,parcial,True,parcial,parcial
+180,GPT,panama,parcial,parcial,parcial,True,parcial,parcial
+181,GPT,panama,parcial,parcial,parcial,True,parcial,parcial
+182,GPT,panama,parcial,parcial,parcial,True,parcial,parcial
+183,GPT,panama,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+184,GPT,panama,correcta,correcta,correcta,True,correcta,correcta
+185,GPT,panama,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+186,GPT,panama,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+187,GPT,panama,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+188,GPT,panama,parcial,parcial,parcial,True,parcial,parcial
+189,GPT,panama,parcial,parcial,parcial,True,parcial,parcial
+190,GPT,panama,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+191,GPT,panama,parcial,parcial,parcial,True,parcial,parcial
+192,GPT,panama,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+193,GPT,panama,correcta,correcta,correcta,True,correcta,correcta
+194,GPT,panama,parcial,parcial,parcial,True,parcial,parcial
+195,GPT,paraguay,parcial,parcial,parcial,True,parcial,parcial
+196,GPT,paraguay,correcta,correcta,correcta,True,correcta,correcta
+197,GPT,paraguay,correcta,correcta,correcta,True,correcta,correcta
+198,GPT,paraguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+199,GPT,paraguay,parcial,parcial,parcial,True,parcial,parcial
+200,GPT,paraguay,parcial,parcial,parcial,True,parcial,parcial
+201,GPT,paraguay,correcta,correcta,correcta,True,correcta,correcta
+202,GPT,paraguay,parcial,parcial,parcial,True,parcial,parcial
+203,GPT,paraguay,correcta,correcta,correcta,True,correcta,correcta
+204,GPT,paraguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+205,GPT,paraguay,correcta,correcta,correcta,True,correcta,correcta
+206,GPT,paraguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+207,GPT,paraguay,parcial,parcial,parcial,True,parcial,parcial
+208,GPT,paraguay,correcta,correcta,correcta,True,correcta,correcta
+209,GPT,paraguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+210,GPT,peru,parcial,parcial,parcial,True,parcial,parcial
+211,GPT,peru,parcial,parcial,parcial,True,parcial,parcial
+212,GPT,peru,parcial,parcial,parcial,True,parcial,parcial
+213,GPT,peru,parcial,parcial,parcial,True,parcial,parcial
+214,GPT,peru,correcta,correcta,correcta,True,correcta,correcta
+215,GPT,peru,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+216,GPT,peru,parcial,parcial,parcial,True,parcial,parcial
+217,GPT,peru,parcial,parcial,parcial,True,parcial,parcial
+218,GPT,peru,parcial,parcial,parcial,True,parcial,parcial
+219,GPT,peru,parcial,parcial,parcial,True,parcial,parcial
+220,GPT,peru,correcta,correcta,correcta,True,correcta,correcta
+221,GPT,peru,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+222,GPT,peru,correcta,correcta,correcta,True,correcta,correcta
+223,GPT,peru,parcial,parcial,parcial,True,parcial,parcial
+224,GPT,peru,parcial,parcial,parcial,True,parcial,parcial
+225,GPT,republica dominicana,correcta,correcta,correcta,True,correcta,correcta
+226,GPT,republica dominicana,correcta,correcta,correcta,True,correcta,correcta
+227,GPT,republica dominicana,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+228,GPT,republica dominicana,parcial,parcial,parcial,True,parcial,parcial
+229,GPT,republica dominicana,correcta,correcta,correcta,True,correcta,correcta
+230,GPT,republica dominicana,correcta,correcta,correcta,True,correcta,correcta
+231,GPT,republica dominicana,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+232,GPT,republica dominicana,parcial,parcial,parcial,True,parcial,parcial
+233,GPT,republica dominicana,parcial,parcial,parcial,True,parcial,parcial
+234,GPT,republica dominicana,parcial,parcial,parcial,True,parcial,parcial
+235,GPT,republica dominicana,parcial,parcial,parcial,True,parcial,parcial
+236,GPT,republica dominicana,parcial,parcial,parcial,True,parcial,parcial
+237,GPT,republica dominicana,correcta,correcta,correcta,True,correcta,correcta
+238,GPT,republica dominicana,parcial,parcial,parcial,True,parcial,parcial
+239,GPT,republica dominicana,parcial,parcial,parcial,True,parcial,parcial
+240,GPT,uruguay,parcial,parcial,parcial,True,parcial,parcial
+241,GPT,uruguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+242,GPT,uruguay,correcta,correcta,correcta,True,correcta,correcta
+243,GPT,uruguay,parcial,parcial,parcial,True,parcial,parcial
+244,GPT,uruguay,parcial,parcial,parcial,True,parcial,parcial
+245,GPT,uruguay,correcta,correcta,correcta,True,correcta,correcta
+246,GPT,uruguay,parcial,parcial,parcial,True,parcial,parcial
+247,GPT,uruguay,correcta,correcta,correcta,True,correcta,correcta
+248,GPT,uruguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+249,GPT,uruguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+250,GPT,uruguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+251,GPT,uruguay,parcial,parcial,parcial,True,parcial,parcial
+252,GPT,uruguay,alucinacion,parcial,parcial,False,parcial,run1=alucinacion; run2=parcial; run3=parcial
+253,GPT,uruguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+254,GPT,uruguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+255,GPT,venezuela,correcta,correcta,correcta,True,correcta,correcta
+256,GPT,venezuela,correcta,correcta,correcta,True,correcta,correcta
+257,GPT,venezuela,parcial,parcial,parcial,True,parcial,parcial
+258,GPT,venezuela,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+259,GPT,venezuela,parcial,parcial,parcial,True,parcial,parcial
+260,GPT,venezuela,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+261,GPT,venezuela,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+262,GPT,venezuela,parcial,parcial,parcial,True,parcial,parcial
+263,GPT,venezuela,correcta,correcta,correcta,True,correcta,correcta
+264,GPT,venezuela,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+265,GPT,venezuela,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+266,GPT,venezuela,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+267,GPT,venezuela,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+268,GPT,venezuela,abstencion,abstencion,abstencion,True,abstencion,abstencion
+269,GPT,venezuela,abstencion,abstencion,abstencion,True,abstencion,abstencion
+0,Claude,argentina,parcial,parcial,parcial,True,parcial,parcial
+1,Claude,argentina,abstencion,abstencion,abstencion,True,abstencion,abstencion
+2,Claude,argentina,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+3,Claude,argentina,correcta,correcta,correcta,True,correcta,correcta
+4,Claude,argentina,correcta,correcta,correcta,True,correcta,correcta
+5,Claude,argentina,abstencion,abstencion,abstencion,True,abstencion,abstencion
+6,Claude,argentina,parcial,parcial,parcial,True,parcial,parcial
+7,Claude,argentina,correcta,correcta,correcta,True,correcta,correcta
+8,Claude,argentina,correcta,correcta,correcta,True,correcta,correcta
+9,Claude,argentina,abstencion,abstencion,abstencion,True,abstencion,abstencion
+10,Claude,argentina,correcta,correcta,correcta,True,correcta,correcta
+11,Claude,argentina,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+12,Claude,argentina,abstencion,abstencion,abstencion,True,abstencion,abstencion
+13,Claude,argentina,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+14,Claude,argentina,abstencion,abstencion,abstencion,True,abstencion,abstencion
+15,Claude,bolivia,parcial,parcial,parcial,True,parcial,parcial
+16,Claude,bolivia,correcta,correcta,correcta,True,correcta,correcta
+17,Claude,bolivia,correcta,correcta,correcta,True,correcta,correcta
+18,Claude,bolivia,parcial,parcial,parcial,True,parcial,parcial
+19,Claude,bolivia,correcta,correcta,correcta,True,correcta,correcta
+20,Claude,bolivia,abstencion,abstencion,abstencion,True,abstencion,abstencion
+21,Claude,bolivia,parcial,parcial,parcial,True,parcial,parcial
+22,Claude,bolivia,correcta,correcta,correcta,True,correcta,correcta
+23,Claude,bolivia,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+24,Claude,bolivia,abstencion,abstencion,abstencion,True,abstencion,abstencion
+25,Claude,bolivia,abstencion,abstencion,abstencion,True,abstencion,abstencion
+26,Claude,bolivia,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+27,Claude,bolivia,parcial,parcial,parcial,True,parcial,parcial
+28,Claude,bolivia,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+29,Claude,bolivia,abstencion,abstencion,abstencion,True,abstencion,abstencion
+30,Claude,chile,parcial,parcial,parcial,True,parcial,parcial
+31,Claude,chile,parcial,parcial,parcial,True,parcial,parcial
+32,Claude,chile,correcta,correcta,correcta,True,correcta,correcta
+33,Claude,chile,parcial,parcial,parcial,True,parcial,parcial
+34,Claude,chile,parcial,parcial,parcial,True,parcial,parcial
+35,Claude,chile,abstencion,abstencion,abstencion,True,abstencion,abstencion
+36,Claude,chile,correcta,correcta,correcta,True,correcta,correcta
+37,Claude,chile,parcial,parcial,parcial,True,parcial,parcial
+38,Claude,chile,correcta,correcta,correcta,True,correcta,correcta
+39,Claude,chile,parcial,parcial,parcial,True,parcial,parcial
+40,Claude,chile,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+41,Claude,chile,abstencion,abstencion,abstencion,True,abstencion,abstencion
+42,Claude,chile,parcial,parcial,parcial,True,parcial,parcial
+43,Claude,chile,abstencion,abstencion,abstencion,True,abstencion,abstencion
+44,Claude,chile,abstencion,abstencion,abstencion,True,abstencion,abstencion
+45,Claude,colombia,parcial,parcial,parcial,True,parcial,parcial
+46,Claude,colombia,parcial,parcial,parcial,True,parcial,parcial
+47,Claude,colombia,correcta,correcta,correcta,True,correcta,correcta
+48,Claude,colombia,parcial,parcial,parcial,True,parcial,parcial
+49,Claude,colombia,correcta,correcta,correcta,True,correcta,correcta
+50,Claude,colombia,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+51,Claude,colombia,correcta,correcta,correcta,True,correcta,correcta
+52,Claude,colombia,correcta,correcta,correcta,True,correcta,correcta
+53,Claude,colombia,parcial,parcial,parcial,True,parcial,parcial
+54,Claude,colombia,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+55,Claude,colombia,abstencion,abstencion,abstencion,True,abstencion,abstencion
+56,Claude,colombia,abstencion,abstencion,abstencion,True,abstencion,abstencion
+57,Claude,colombia,abstencion,abstencion,abstencion,True,abstencion,abstencion
+58,Claude,colombia,correcta,correcta,correcta,True,correcta,correcta
+59,Claude,colombia,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+60,Claude,costa rica,parcial,parcial,parcial,True,parcial,parcial
+61,Claude,costa rica,correcta,correcta,correcta,True,correcta,correcta
+62,Claude,costa rica,correcta,correcta,correcta,True,correcta,correcta
+63,Claude,costa rica,correcta,correcta,correcta,True,correcta,correcta
+64,Claude,costa rica,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+65,Claude,costa rica,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+66,Claude,costa rica,parcial,parcial,parcial,True,parcial,parcial
+67,Claude,costa rica,correcta,correcta,correcta,True,correcta,correcta
+68,Claude,costa rica,parcial,parcial,parcial,True,parcial,parcial
+69,Claude,costa rica,correcta,correcta,correcta,True,correcta,correcta
+70,Claude,costa rica,correcta,correcta,correcta,True,correcta,correcta
+71,Claude,costa rica,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+72,Claude,costa rica,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+73,Claude,costa rica,parcial,parcial,parcial,True,parcial,parcial
+74,Claude,costa rica,abstencion,abstencion,abstencion,True,abstencion,abstencion
+75,Claude,cuba,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+76,Claude,cuba,parcial,parcial,parcial,True,parcial,parcial
+77,Claude,cuba,parcial,parcial,parcial,True,parcial,parcial
+78,Claude,cuba,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+79,Claude,cuba,correcta,correcta,correcta,True,correcta,correcta
+80,Claude,cuba,abstencion,abstencion,abstencion,True,abstencion,abstencion
+81,Claude,cuba,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+82,Claude,cuba,correcta,correcta,correcta,True,correcta,correcta
+83,Claude,cuba,parcial,parcial,parcial,True,parcial,parcial
+84,Claude,cuba,correcta,correcta,correcta,True,correcta,correcta
+85,Claude,cuba,parcial,parcial,parcial,True,parcial,parcial
+86,Claude,cuba,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+87,Claude,cuba,parcial,parcial,parcial,True,parcial,parcial
+88,Claude,cuba,parcial,parcial,parcial,True,parcial,parcial
+89,Claude,cuba,correcta,correcta,correcta,True,correcta,correcta
+90,Claude,ecuador,parcial,parcial,parcial,True,parcial,parcial
+91,Claude,ecuador,abstencion,abstencion,abstencion,True,abstencion,abstencion
+92,Claude,ecuador,parcial,parcial,parcial,True,parcial,parcial
+93,Claude,ecuador,parcial,parcial,parcial,True,parcial,parcial
+94,Claude,ecuador,correcta,correcta,correcta,True,correcta,correcta
+95,Claude,ecuador,parcial,parcial,parcial,True,parcial,parcial
+96,Claude,ecuador,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+97,Claude,ecuador,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+98,Claude,ecuador,parcial,parcial,parcial,True,parcial,parcial
+99,Claude,ecuador,parcial,parcial,parcial,True,parcial,parcial
+100,Claude,ecuador,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+101,Claude,ecuador,correcta,correcta,correcta,True,correcta,correcta
+102,Claude,ecuador,parcial,correcta,parcial,False,parcial,run1=parcial; run2=correcta; run3=parcial
+103,Claude,ecuador,abstencion,abstencion,abstencion,True,abstencion,abstencion
+104,Claude,ecuador,parcial,parcial,parcial,True,parcial,parcial
+105,Claude,el salvador,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+106,Claude,el salvador,parcial,parcial,parcial,True,parcial,parcial
+107,Claude,el salvador,parcial,parcial,parcial,True,parcial,parcial
+108,Claude,el salvador,parcial,parcial,parcial,True,parcial,parcial
+109,Claude,el salvador,correcta,correcta,correcta,True,correcta,correcta
+110,Claude,el salvador,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+111,Claude,el salvador,parcial,parcial,parcial,True,parcial,parcial
+112,Claude,el salvador,correcta,correcta,correcta,True,correcta,correcta
+113,Claude,el salvador,parcial,parcial,parcial,True,parcial,parcial
+114,Claude,el salvador,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+115,Claude,el salvador,parcial,parcial,parcial,True,parcial,parcial
+116,Claude,el salvador,abstencion,abstencion,abstencion,True,abstencion,abstencion
+117,Claude,el salvador,parcial,parcial,parcial,True,parcial,parcial
+118,Claude,el salvador,correcta,correcta,correcta,True,correcta,correcta
+119,Claude,el salvador,parcial,parcial,parcial,True,parcial,parcial
+120,Claude,guatemala,parcial,parcial,parcial,True,parcial,parcial
+121,Claude,guatemala,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+122,Claude,guatemala,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+123,Claude,guatemala,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+124,Claude,guatemala,correcta,correcta,correcta,True,correcta,correcta
+125,Claude,guatemala,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+126,Claude,guatemala,parcial,parcial,parcial,True,parcial,parcial
+127,Claude,guatemala,correcta,parcial,parcial,False,parcial,run1=correcta; run2=parcial; run3=parcial
+128,Claude,guatemala,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+129,Claude,guatemala,parcial,parcial,parcial,True,parcial,parcial
+130,Claude,guatemala,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+131,Claude,guatemala,parcial,parcial,parcial,True,parcial,parcial
+132,Claude,guatemala,parcial,alucinacion,parcial,False,parcial,run1=parcial; run2=alucinacion; run3=parcial
+133,Claude,guatemala,parcial,parcial,parcial,True,parcial,parcial
+134,Claude,guatemala,correcta,correcta,correcta,True,correcta,correcta
+135,Claude,honduras,parcial,parcial,parcial,True,parcial,parcial
+136,Claude,honduras,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+137,Claude,honduras,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+138,Claude,honduras,abstencion,abstencion,abstencion,True,abstencion,abstencion
+139,Claude,honduras,parcial,parcial,parcial,True,parcial,parcial
+140,Claude,honduras,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+141,Claude,honduras,abstencion,abstencion,abstencion,True,abstencion,abstencion
+142,Claude,honduras,parcial,parcial,parcial,True,parcial,parcial
+143,Claude,honduras,parcial,parcial,parcial,True,parcial,parcial
+144,Claude,honduras,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+145,Claude,honduras,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+146,Claude,honduras,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+147,Claude,honduras,abstencion,abstencion,abstencion,True,abstencion,abstencion
+148,Claude,honduras,correcta,correcta,correcta,True,correcta,correcta
+149,Claude,honduras,abstencion,abstencion,alucinacion,False,abstencion,run1=abstencion; run2=abstencion; run3=alucinacion
+150,Claude,mexico,parcial,parcial,parcial,True,parcial,parcial
+151,Claude,mexico,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+152,Claude,mexico,parcial,parcial,parcial,True,parcial,parcial
+153,Claude,mexico,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+154,Claude,mexico,correcta,correcta,correcta,True,correcta,correcta
+155,Claude,mexico,parcial,parcial,parcial,True,parcial,parcial
+156,Claude,mexico,parcial,parcial,parcial,True,parcial,parcial
+157,Claude,mexico,correcta,correcta,correcta,True,correcta,correcta
+158,Claude,mexico,parcial,parcial,parcial,True,parcial,parcial
+159,Claude,mexico,abstencion,abstencion,abstencion,True,abstencion,abstencion
+160,Claude,mexico,correcta,correcta,correcta,True,correcta,correcta
+161,Claude,mexico,abstencion,abstencion,abstencion,True,abstencion,abstencion
+162,Claude,mexico,correcta,correcta,correcta,True,correcta,correcta
+163,Claude,mexico,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+164,Claude,mexico,abstencion,abstencion,abstencion,True,abstencion,abstencion
+165,Claude,nicaragua,correcta,correcta,correcta,True,correcta,correcta
+166,Claude,nicaragua,parcial,parcial,parcial,True,parcial,parcial
+167,Claude,nicaragua,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+168,Claude,nicaragua,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+169,Claude,nicaragua,parcial,parcial,parcial,True,parcial,parcial
+170,Claude,nicaragua,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+171,Claude,nicaragua,parcial,parcial,parcial,True,parcial,parcial
+172,Claude,nicaragua,correcta,correcta,correcta,True,correcta,correcta
+173,Claude,nicaragua,correcta,correcta,correcta,True,correcta,correcta
+174,Claude,nicaragua,abstencion,abstencion,abstencion,True,abstencion,abstencion
+175,Claude,nicaragua,abstencion,abstencion,abstencion,True,abstencion,abstencion
+176,Claude,nicaragua,abstencion,abstencion,abstencion,True,abstencion,abstencion
+177,Claude,nicaragua,correcta,correcta,correcta,True,correcta,correcta
+178,Claude,nicaragua,abstencion,abstencion,abstencion,True,abstencion,abstencion
+179,Claude,nicaragua,parcial,parcial,parcial,True,parcial,parcial
+180,Claude,panama,parcial,parcial,parcial,True,parcial,parcial
+181,Claude,panama,parcial,parcial,parcial,True,parcial,parcial
+182,Claude,panama,parcial,parcial,parcial,True,parcial,parcial
+183,Claude,panama,abstencion,abstencion,abstencion,True,abstencion,abstencion
+184,Claude,panama,correcta,correcta,correcta,True,correcta,correcta
+185,Claude,panama,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+186,Claude,panama,abstencion,abstencion,abstencion,True,abstencion,abstencion
+187,Claude,panama,abstencion,abstencion,abstencion,True,abstencion,abstencion
+188,Claude,panama,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+189,Claude,panama,parcial,parcial,parcial,True,parcial,parcial
+190,Claude,panama,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+191,Claude,panama,parcial,parcial,parcial,True,parcial,parcial
+192,Claude,panama,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+193,Claude,panama,correcta,correcta,correcta,True,correcta,correcta
+194,Claude,panama,parcial,parcial,parcial,True,parcial,parcial
+195,Claude,paraguay,parcial,parcial,parcial,True,parcial,parcial
+196,Claude,paraguay,correcta,correcta,correcta,True,correcta,correcta
+197,Claude,paraguay,correcta,correcta,parcial,False,correcta,run1=correcta; run2=correcta; run3=parcial
+198,Claude,paraguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+199,Claude,paraguay,parcial,parcial,parcial,True,parcial,parcial
+200,Claude,paraguay,parcial,parcial,parcial,True,parcial,parcial
+201,Claude,paraguay,parcial,parcial,parcial,True,parcial,parcial
+202,Claude,paraguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+203,Claude,paraguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+204,Claude,paraguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+205,Claude,paraguay,parcial,parcial,parcial,True,parcial,parcial
+206,Claude,paraguay,abstencion,abstencion,abstencion,True,abstencion,abstencion
+207,Claude,paraguay,abstencion,abstencion,abstencion,True,abstencion,abstencion
+208,Claude,paraguay,parcial,parcial,parcial,True,parcial,parcial
+209,Claude,paraguay,abstencion,abstencion,abstencion,True,abstencion,abstencion
+210,Claude,peru,correcta,correcta,correcta,True,correcta,correcta
+211,Claude,peru,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+212,Claude,peru,correcta,correcta,correcta,True,correcta,correcta
+213,Claude,peru,abstencion,abstencion,abstencion,True,abstencion,abstencion
+214,Claude,peru,correcta,correcta,correcta,True,correcta,correcta
+215,Claude,peru,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+216,Claude,peru,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+217,Claude,peru,correcta,correcta,correcta,True,correcta,correcta
+218,Claude,peru,parcial,parcial,parcial,True,parcial,parcial
+219,Claude,peru,correcta,correcta,correcta,True,correcta,correcta
+220,Claude,peru,correcta,correcta,correcta,True,correcta,correcta
+221,Claude,peru,correcta,correcta,correcta,True,correcta,correcta
+222,Claude,peru,correcta,correcta,correcta,True,correcta,correcta
+223,Claude,peru,correcta,correcta,correcta,True,correcta,correcta
+224,Claude,peru,parcial,parcial,parcial,True,parcial,parcial
+225,Claude,republica dominicana,abstencion,abstencion,abstencion,True,abstencion,abstencion
+226,Claude,republica dominicana,parcial,parcial,parcial,True,parcial,parcial
+227,Claude,republica dominicana,abstencion,abstencion,abstencion,True,abstencion,abstencion
+228,Claude,republica dominicana,parcial,parcial,parcial,True,parcial,parcial
+229,Claude,republica dominicana,correcta,correcta,correcta,True,correcta,correcta
+230,Claude,republica dominicana,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+231,Claude,republica dominicana,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+232,Claude,republica dominicana,parcial,parcial,parcial,True,parcial,parcial
+233,Claude,republica dominicana,parcial,parcial,parcial,True,parcial,parcial
+234,Claude,republica dominicana,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+235,Claude,republica dominicana,parcial,parcial,parcial,True,parcial,parcial
+236,Claude,republica dominicana,correcta,correcta,correcta,True,correcta,correcta
+237,Claude,republica dominicana,parcial,parcial,parcial,True,parcial,parcial
+238,Claude,republica dominicana,correcta,correcta,correcta,True,correcta,correcta
+239,Claude,republica dominicana,parcial,parcial,parcial,True,parcial,parcial
+240,Claude,uruguay,parcial,parcial,parcial,True,parcial,parcial
+241,Claude,uruguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+242,Claude,uruguay,correcta,correcta,correcta,True,correcta,correcta
+243,Claude,uruguay,parcial,parcial,parcial,True,parcial,parcial
+244,Claude,uruguay,parcial,parcial,parcial,True,parcial,parcial
+245,Claude,uruguay,parcial,parcial,parcial,True,parcial,parcial
+246,Claude,uruguay,parcial,parcial,parcial,True,parcial,parcial
+247,Claude,uruguay,correcta,correcta,correcta,True,correcta,correcta
+248,Claude,uruguay,parcial,parcial,parcial,True,parcial,parcial
+249,Claude,uruguay,abstencion,abstencion,abstencion,True,abstencion,abstencion
+250,Claude,uruguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+251,Claude,uruguay,parcial,parcial,parcial,True,parcial,parcial
+252,Claude,uruguay,abstencion,abstencion,abstencion,True,abstencion,abstencion
+253,Claude,uruguay,abstencion,abstencion,abstencion,True,abstencion,abstencion
+254,Claude,uruguay,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+255,Claude,venezuela,correcta,correcta,correcta,True,correcta,correcta
+256,Claude,venezuela,correcta,correcta,correcta,True,correcta,correcta
+257,Claude,venezuela,parcial,parcial,alucinacion,False,parcial,run1=parcial; run2=parcial; run3=alucinacion
+258,Claude,venezuela,abstencion,abstencion,abstencion,True,abstencion,abstencion
+259,Claude,venezuela,parcial,parcial,parcial,True,parcial,parcial
+260,Claude,venezuela,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+261,Claude,venezuela,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+262,Claude,venezuela,correcta,correcta,correcta,True,correcta,correcta
+263,Claude,venezuela,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+264,Claude,venezuela,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+265,Claude,venezuela,abstencion,abstencion,abstencion,True,abstencion,abstencion
+266,Claude,venezuela,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+267,Claude,venezuela,alucinacion,alucinacion,alucinacion,True,alucinacion,alucinacion
+268,Claude,venezuela,abstencion,abstencion,abstencion,True,abstencion,abstencion
+269,Claude,venezuela,abstencion,abstencion,abstencion,True,abstencion,abstencion

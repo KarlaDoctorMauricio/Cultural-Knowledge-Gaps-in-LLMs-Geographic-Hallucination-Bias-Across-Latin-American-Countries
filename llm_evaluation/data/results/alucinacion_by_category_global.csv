@@ -1,0 +1,15 @@
+model,category,pct_alucinacion,n_preguntas
+Claude,geography,33.33,51
+Claude,public_figure,33.33,9
+Claude,fauna,31.25,48
+Claude,object,22.22,18
+Claude,dish,20.37,54
+Claude,flora,16.67,42
+Claude,tradition,16.67,48
+GPT,public_figure,66.67,9
+GPT,object,44.44,18
+GPT,tradition,37.5,48
+GPT,geography,37.25,51
+GPT,flora,28.57,42
+GPT,fauna,27.08,48
+GPT,dish,24.07,54

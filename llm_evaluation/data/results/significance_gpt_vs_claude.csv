@@ -1,0 +1,6 @@
+test_name,statistic,p_value,effect_size,effect_size_type,n,notes,alpha
+wilcoxon_signed_rank_error,15274.0,0.018756,-0.013135,median_diff_error_GPT_minus_Claude,270,Primary test: non-parametric paired comparison on 1-similarity.,0.05
+shapiro_wilk_difference,0.978244,0.000384,,normality_check_on_diff,270,H0: differences are normal. Low p => prefer Wilcoxon over t-test.,0.05
+paired_t_test_error,-2.552458,0.01125,-0.155338,cohens_d_paired,270,mean_diff=-0.0206; use only if Shapiro is not significant.,0.05
+mcnemar_alucinacion_paired,10.775862,0.001028,0.096296,risk_diff_GPT_minus_Claude,270,"GPT 28.9% (78/270) vs Claude 19.3% (52/270); discordant GPT-only=42, Claude-only=16; both_aluc=36, neither=176. Primary paired test.",0.05
+two_proportion_z_alucinacion_independent,,0.00887,0.096296,risk_diff_GPT_minus_Claude,270,Supplementary: treats the two model rates as independent (less appropriate).,0.05

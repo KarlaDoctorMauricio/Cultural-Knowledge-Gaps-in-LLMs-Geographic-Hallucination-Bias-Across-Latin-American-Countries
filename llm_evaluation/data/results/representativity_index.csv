@@ -1,0 +1,37 @@
+pais,model,pct_alucinacion,residual_alucinacion,IR,interpretacion
+guatemala,Claude,40.0,16.34,46.54,riesgo moderado
+honduras,Claude,40.0,16.34,46.54,riesgo moderado
+venezuela,Claude,40.0,15.23,46.09,riesgo moderado
+paraguay,Claude,26.67,4.82,27.96,riesgo moderado
+costa rica,Claude,26.67,3.01,27.47,riesgo moderado
+cuba,Claude,26.67,1.9,27.18,riesgo moderado
+panama,Claude,26.67,1.9,27.18,riesgo moderado
+mexico,Claude,20.0,-1.44,20.0,riesgo bajo
+argentina,Claude,20.0,-3.66,20.0,riesgo bajo
+ecuador,Claude,20.0,-3.66,20.0,riesgo bajo
+el salvador,Claude,20.0,-3.66,20.0,riesgo bajo
+nicaragua,Claude,20.0,-3.66,20.0,riesgo bajo
+peru,Claude,20.0,-3.66,20.0,riesgo bajo
+uruguay,Claude,20.0,-3.66,20.0,riesgo bajo
+republica dominicana,Claude,20.0,-4.77,20.0,riesgo bajo
+bolivia,Claude,20.0,-6.99,20.0,riesgo bajo
+colombia,Claude,20.0,-6.99,20.0,riesgo bajo
+chile,Claude,6.67,-17.4,6.67,riesgo bajo
+argentina,GPT,53.33,22.44,65.3,riesgo alto: alucinación elevada no explicada por composición
+guatemala,GPT,46.67,15.78,54.03,riesgo alto: alucinación elevada no explicada por composición
+venezuela,GPT,46.67,12.6,52.55,riesgo alto: alucinación elevada no explicada por composición
+honduras,GPT,40.0,9.11,43.64,riesgo moderado
+nicaragua,GPT,40.0,9.11,43.64,riesgo moderado
+uruguay,GPT,40.0,9.11,43.64,riesgo moderado
+mexico,GPT,40.0,7.67,43.07,riesgo moderado
+panama,GPT,40.0,5.93,42.37,riesgo moderado
+colombia,GPT,40.0,1.49,40.6,riesgo moderado
+costa rica,GPT,33.33,2.44,34.14,riesgo moderado
+cuba,GPT,33.33,1.05,33.68,riesgo moderado
+paraguay,GPT,26.67,-7.7,26.67,riesgo moderado
+bolivia,GPT,26.67,-11.84,26.67,riesgo moderado
+chile,GPT,26.67,-12.14,26.67,riesgo moderado
+ecuador,GPT,20.0,-10.89,20.0,riesgo bajo
+el salvador,GPT,13.33,-17.56,13.33,riesgo bajo
+peru,GPT,13.33,-17.56,13.33,riesgo bajo
+republica dominicana,GPT,13.33,-18.95,13.33,riesgo bajo

@@ -1,0 +1,37 @@
+model,pais,n_total,n_alucinacion,pct_alucinacion,pct_alucinacion_ci_lower,pct_alucinacion_ci_upper,ic_95_alucinacion,pct_alucinacion_esperado_por_mezcla,residual_alucinacion,IR,confiable,interpretacion_composicion,interpretacion_ir
+Claude,guatemala,15,6,40.0,20.0,60.0,[20.0–60.0],23.66,16.34,46.54,True,alucinacion peor de lo que explica la mezcla de categorias,riesgo moderado
+Claude,honduras,15,6,40.0,13.33,60.17,[13.3–60.2],23.66,16.34,46.54,True,alucinacion peor de lo que explica la mezcla de categorias,riesgo moderado
+Claude,venezuela,15,6,40.0,19.83,66.67,[19.8–66.7],24.77,15.23,46.09,True,alucinacion peor de lo que explica la mezcla de categorias,riesgo moderado
+Claude,paraguay,15,4,26.67,6.67,46.67,[6.7–46.7],21.85,4.82,27.96,True,alucinacion peor de lo que explica la mezcla de categorias,riesgo moderado
+Claude,costa rica,15,4,26.67,6.67,46.67,[6.7–46.7],23.66,3.01,27.47,True,alucinacion peor de lo que explica la mezcla de categorias,riesgo moderado
+Claude,cuba,15,4,26.67,6.67,46.67,[6.7–46.7],24.77,1.9,27.18,True,sub-representacion de categorias dificiles,riesgo moderado
+Claude,panama,15,4,26.67,6.67,53.33,[6.7–53.3],24.77,1.9,27.18,True,mezcla de categorias alineada con el promedio global,riesgo moderado
+Claude,mexico,15,3,20.0,0.0,40.0,[0.0–40.0],21.44,-1.44,20.0,True,mezcla de categorias alineada con el promedio global,riesgo bajo
+Claude,argentina,15,3,20.0,0.0,40.0,[0.0–40.0],23.66,-3.66,20.0,True,alucinacion mejor de lo que explica la mezcla de categorias,riesgo bajo
+Claude,ecuador,15,3,20.0,0.0,40.0,[0.0–40.0],23.66,-3.66,20.0,True,alucinacion mejor de lo que explica la mezcla de categorias,riesgo bajo
+Claude,el salvador,15,3,20.0,0.0,46.67,[0.0–46.7],23.66,-3.66,20.0,True,alucinacion mejor de lo que explica la mezcla de categorias,riesgo bajo
+Claude,nicaragua,15,3,20.0,0.0,40.0,[0.0–40.0],23.66,-3.66,20.0,True,alucinacion mejor de lo que explica la mezcla de categorias,riesgo bajo
+Claude,peru,15,3,20.0,0.0,46.67,[0.0–46.7],23.66,-3.66,20.0,True,alucinacion mejor de lo que explica la mezcla de categorias,riesgo bajo
+Claude,uruguay,15,3,20.0,0.0,40.0,[0.0–40.0],23.66,-3.66,20.0,True,alucinacion mejor de lo que explica la mezcla de categorias,riesgo bajo
+Claude,republica dominicana,15,3,20.0,0.0,40.0,[0.0–40.0],24.77,-4.77,20.0,True,sub-representacion de categorias dificiles; alucinacion mejor de lo que explica la mezcla de categorias,riesgo bajo
+Claude,bolivia,15,3,20.0,0.0,40.0,[0.0–40.0],26.99,-6.99,20.0,True,"sobre-representacion de categorias dificiles (public_figure, tradition); alucinacion mejor de lo que explica la mezcla de categorias; categoria mas sobre-representada: public_figure",riesgo bajo
+Claude,colombia,15,3,20.0,0.0,40.17,[0.0–40.2],26.99,-6.99,20.0,True,"sobre-representacion de categorias dificiles (public_figure, tradition); alucinacion mejor de lo que explica la mezcla de categorias; categoria mas sobre-representada: public_figure",riesgo bajo
+Claude,chile,15,1,6.67,0.0,20.0,[0.0–20.0],24.07,-17.4,6.67,True,"sobre-representacion de categorias dificiles (public_figure, tradition); alucinacion mejor de lo que explica la mezcla de categorias; categoria mas sobre-representada: public_figure",riesgo bajo
+GPT,argentina,15,8,53.33,26.67,80.0,[26.7–80.0],30.89,22.44,65.3,True,alucinacion peor de lo que explica la mezcla de categorias,riesgo alto: alucinación elevada no explicada por composición
+GPT,guatemala,15,7,46.67,20.0,73.33,[20.0–73.3],30.89,15.78,54.03,True,alucinacion peor de lo que explica la mezcla de categorias,riesgo alto: alucinación elevada no explicada por composición
+GPT,venezuela,15,7,46.67,20.0,73.33,[20.0–73.3],34.07,12.6,52.55,True,alucinacion peor de lo que explica la mezcla de categorias,riesgo alto: alucinación elevada no explicada por composición
+GPT,honduras,15,6,40.0,20.0,66.67,[20.0–66.7],30.89,9.11,43.64,True,alucinacion peor de lo que explica la mezcla de categorias,riesgo moderado
+GPT,nicaragua,15,6,40.0,13.33,66.67,[13.3–66.7],30.89,9.11,43.64,True,alucinacion peor de lo que explica la mezcla de categorias,riesgo moderado
+GPT,uruguay,15,6,40.0,13.33,60.0,[13.3–60.0],30.89,9.11,43.64,True,alucinacion peor de lo que explica la mezcla de categorias,riesgo moderado
+GPT,mexico,15,6,40.0,13.33,66.67,[13.3–66.7],32.33,7.67,43.07,True,alucinacion peor de lo que explica la mezcla de categorias,riesgo moderado
+GPT,panama,15,6,40.0,20.0,66.67,[20.0–66.7],34.07,5.93,42.37,True,alucinacion peor de lo que explica la mezcla de categorias,riesgo moderado
+GPT,colombia,15,6,40.0,13.33,66.67,[13.3–66.7],38.51,1.49,40.6,True,"sobre-representacion de categorias dificiles (public_figure, tradition); categoria mas sobre-representada: public_figure",riesgo moderado
+GPT,costa rica,15,5,33.33,13.33,60.0,[13.3–60.0],30.89,2.44,34.14,True,mezcla de categorias alineada con el promedio global,riesgo moderado
+GPT,cuba,15,5,33.33,13.33,60.0,[13.3–60.0],32.28,1.05,33.68,True,sub-representacion de categorias dificiles,riesgo moderado
+GPT,paraguay,15,4,26.67,6.67,53.33,[6.7–53.3],34.37,-7.7,26.67,True,alucinacion mejor de lo que explica la mezcla de categorias,riesgo moderado
+GPT,bolivia,15,4,26.67,6.67,53.33,[6.7–53.3],38.51,-11.84,26.67,True,"sobre-representacion de categorias dificiles (public_figure, tradition); alucinacion mejor de lo que explica la mezcla de categorias; categoria mas sobre-representada: public_figure",riesgo moderado
+GPT,chile,15,4,26.67,6.67,53.33,[6.7–53.3],38.81,-12.14,26.67,True,"sobre-representacion de categorias dificiles (public_figure, tradition); alucinacion mejor de lo que explica la mezcla de categorias; categoria mas sobre-representada: public_figure",riesgo moderado
+GPT,ecuador,15,3,20.0,0.0,40.0,[0.0–40.0],30.89,-10.89,20.0,True,alucinacion mejor de lo que explica la mezcla de categorias,riesgo bajo
+GPT,el salvador,15,2,13.33,0.0,33.33,[0.0–33.3],30.89,-17.56,13.33,True,alucinacion mejor de lo que explica la mezcla de categorias,riesgo bajo
+GPT,peru,15,2,13.33,0.0,33.33,[0.0–33.3],30.89,-17.56,13.33,True,alucinacion mejor de lo que explica la mezcla de categorias,riesgo bajo
+GPT,republica dominicana,15,2,13.33,0.0,33.33,[0.0–33.3],32.28,-18.95,13.33,True,sub-representacion de categorias dificiles; alucinacion mejor de lo que explica la mezcla de categorias,riesgo bajo

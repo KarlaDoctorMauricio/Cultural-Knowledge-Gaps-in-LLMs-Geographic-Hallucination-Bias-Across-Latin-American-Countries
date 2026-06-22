@@ -1,0 +1,181 @@
+pais,category,mae,n_preguntas,method
+argentina,dish,0.6950445820887884,3,Claude
+argentina,fauna,0.592508872350057,3,Claude
+argentina,flora,0.571035717924436,3,Claude
+argentina,geography,0.6793912947177887,3,Claude
+argentina,tradition,0.7622260808323821,3,Claude
+bolivia,dish,0.40785518288612366,3,Claude
+bolivia,fauna,0.5145605504512787,3,Claude
+bolivia,geography,0.548299103975296,3,Claude
+bolivia,public_figure,0.529051144917806,3,Claude
+bolivia,tradition,0.4854084551334381,3,Claude
+chile,dish,0.5779780149459839,3,Claude
+chile,flora,0.6272460420926412,3,Claude
+chile,geography,0.5813308159510294,3,Claude
+chile,public_figure,0.6830841600894928,3,Claude
+chile,tradition,0.6691452066103617,3,Claude
+colombia,dish,0.665315588315328,3,Claude
+colombia,fauna,0.5398314793904623,3,Claude
+colombia,geography,0.36615995566050213,3,Claude
+colombia,public_figure,0.5994444067279497,3,Claude
+colombia,tradition,0.6705655182401339,3,Claude
+costa rica,dish,0.312717080116272,3,Claude
+costa rica,fauna,0.5741695364316305,3,Claude
+costa rica,flora,0.5144262711207072,3,Claude
+costa rica,geography,0.5977178340156873,3,Claude
+costa rica,tradition,0.6200617452462515,3,Claude
+cuba,dish,0.5467087229092916,3,Claude
+cuba,fauna,0.534191499153773,3,Claude
+cuba,flora,0.5127370357513428,3,Claude
+cuba,geography,0.4762161076068878,3,Claude
+cuba,object,0.49197670817375183,3,Claude
+ecuador,dish,0.47138524055480957,3,Claude
+ecuador,fauna,0.6181776523590088,3,Claude
+ecuador,flora,0.46857403715451557,3,Claude
+ecuador,geography,0.5279024690389633,3,Claude
+ecuador,tradition,0.7068166335423788,3,Claude
+el salvador,dish,0.5128906667232513,3,Claude
+el salvador,fauna,0.44432321190834045,3,Claude
+el salvador,flora,0.44123419125874835,3,Claude
+el salvador,geography,0.5330593486626943,3,Claude
+el salvador,tradition,0.5899355212847391,3,Claude
+guatemala,dish,0.6564642985661825,3,Claude
+guatemala,fauna,0.6377773582935333,3,Claude
+guatemala,flora,0.38395504156748456,3,Claude
+guatemala,geography,0.5970172882080078,3,Claude
+guatemala,tradition,0.49975775678952533,3,Claude
+honduras,dish,0.6609970380862554,3,Claude
+honduras,fauna,0.5811810195446014,3,Claude
+honduras,flora,0.6006986002127329,3,Claude
+honduras,geography,0.6839904536803564,3,Claude
+honduras,tradition,0.4777351915836334,3,Claude
+mexico,dish,0.4645177324612935,3,Claude
+mexico,fauna,0.6300471425056458,3,Claude
+mexico,flora,0.42439276973406476,3,Claude
+mexico,object,0.5827270050843557,3,Claude
+mexico,tradition,0.5278792381286621,3,Claude
+nicaragua,dish,0.5356657306353251,3,Claude
+nicaragua,fauna,0.5682482123374939,3,Claude
+nicaragua,flora,0.5484704474608103,3,Claude
+nicaragua,geography,0.6731285899877548,3,Claude
+nicaragua,tradition,0.5120941350857416,3,Claude
+panama,dish,0.5515382488568624,3,Claude
+panama,fauna,0.7148611843585968,3,Claude
+panama,geography,0.7431929111480713,3,Claude
+panama,object,0.5821290214856466,3,Claude
+panama,tradition,0.5422324140866598,3,Claude
+paraguay,dish,0.47994450728098553,3,Claude
+paraguay,flora,0.4024108250935872,3,Claude
+paraguay,geography,0.5758609970410665,3,Claude
+paraguay,object,0.6529923975467682,3,Claude
+paraguay,tradition,0.605832889676094,3,Claude
+peru,dish,0.6290005644162496,3,Claude
+peru,fauna,0.6647764345010122,3,Claude
+peru,flora,0.4908861617247264,3,Claude
+peru,geography,0.36752065022786456,3,Claude
+peru,tradition,0.21051732699076334,3,Claude
+republica dominicana,dish,0.8253371094663938,3,Claude
+republica dominicana,fauna,0.5214786181847254,3,Claude
+republica dominicana,flora,0.6917278269926707,3,Claude
+republica dominicana,geography,0.511197050412496,3,Claude
+republica dominicana,object,0.6008050839106241,3,Claude
+uruguay,dish,0.594805896282196,3,Claude
+uruguay,fauna,0.5062152544657389,3,Claude
+uruguay,flora,0.4527734915415446,3,Claude
+uruguay,geography,0.5512803941965103,3,Claude
+uruguay,tradition,0.6848238408565521,3,Claude
+venezuela,dish,0.5928556025028229,3,Claude
+venezuela,fauna,0.5905389885107676,3,Claude
+venezuela,geography,0.510526716709137,3,Claude
+venezuela,object,0.7581099420785904,3,Claude
+venezuela,tradition,0.7189325044552485,3,Claude
+argentina,dish,0.6801871061325073,3,GPT
+argentina,fauna,0.5196833312511444,3,GPT
+argentina,flora,0.549680233001709,3,GPT
+argentina,geography,0.7078053603569666,3,GPT
+argentina,tradition,0.7617766068627437,3,GPT
+bolivia,dish,0.40678611397743225,3,GPT
+bolivia,fauna,0.4057518045107524,3,GPT
+bolivia,geography,0.5125332772731781,3,GPT
+bolivia,public_figure,0.5735367139180502,3,GPT
+bolivia,tradition,0.3771250645319621,3,GPT
+chile,dish,0.6721510092417399,3,GPT
+chile,flora,0.6145126620928446,3,GPT
+chile,geography,0.5520001649856567,3,GPT
+chile,public_figure,0.6871465643246969,3,GPT
+chile,tradition,0.6969993015130361,3,GPT
+colombia,dish,0.539621631304423,3,GPT
+colombia,fauna,0.35427355766296387,3,GPT
+colombia,geography,0.339543879032135,3,GPT
+colombia,public_figure,0.6739755341162285,3,GPT
+colombia,tradition,0.5772079477707545,3,GPT
+costa rica,dish,0.18967076142628989,3,GPT
+costa rica,fauna,0.5068569978078207,3,GPT
+costa rica,flora,0.4985983967781067,3,GPT
+costa rica,geography,0.6657105286916097,3,GPT
+costa rica,tradition,0.6015715996424357,3,GPT
+cuba,dish,0.6775959506630898,3,GPT
+cuba,fauna,0.5394431638220946,3,GPT
+cuba,flora,0.41578205426534015,3,GPT
+cuba,geography,0.46825729807217914,3,GPT
+cuba,object,0.5283010601997375,3,GPT
+ecuador,dish,0.4963262677192688,3,GPT
+ecuador,fauna,0.5559809605280558,3,GPT
+ecuador,flora,0.40964275598526,3,GPT
+ecuador,geography,0.5192845066388448,3,GPT
+ecuador,tradition,0.5236669580141703,3,GPT
+el salvador,dish,0.5866359571615855,3,GPT
+el salvador,fauna,0.36324044068654376,3,GPT
+el salvador,flora,0.44870049754778546,3,GPT
+el salvador,geography,0.48950738708178204,3,GPT
+el salvador,tradition,0.5329267978668213,3,GPT
+guatemala,dish,0.6892838080724081,3,GPT
+guatemala,fauna,0.7145767609278361,3,GPT
+guatemala,flora,0.5825426479180654,3,GPT
+guatemala,geography,0.5942368308703104,3,GPT
+guatemala,tradition,0.6074816286563873,3,GPT
+honduras,dish,0.5884108146031698,3,GPT
+honduras,fauna,0.41691428422927856,3,GPT
+honduras,flora,0.7436093886693319,3,GPT
+honduras,geography,0.595421552658081,3,GPT
+honduras,tradition,0.4891386330127716,3,GPT
+mexico,dish,0.4307639201482137,3,GPT
+mexico,fauna,0.5626340011755625,3,GPT
+mexico,flora,0.48365630706151325,3,GPT
+mexico,object,0.4786175688107808,3,GPT
+mexico,tradition,0.5431240995724996,3,GPT
+nicaragua,dish,0.548338254292806,3,GPT
+nicaragua,fauna,0.6544457574685415,3,GPT
+nicaragua,flora,0.503857950369517,3,GPT
+nicaragua,geography,0.675477663675944,3,GPT
+nicaragua,tradition,0.49806660413742065,3,GPT
+panama,dish,0.6340725769599279,3,GPT
+panama,fauna,0.7474144026637077,3,GPT
+panama,geography,0.5898561080296835,3,GPT
+panama,object,0.5184530119101206,3,GPT
+panama,tradition,0.4962198734283447,3,GPT
+paraguay,dish,0.4663756887118022,3,GPT
+paraguay,flora,0.5024219751358032,3,GPT
+paraguay,geography,0.3201032082239787,3,GPT
+paraguay,object,0.6747561097145081,3,GPT
+paraguay,tradition,0.5421371757984161,3,GPT
+peru,dish,0.6244567632675171,3,GPT
+peru,fauna,0.6633034447828928,3,GPT
+peru,flora,0.5308345556259155,3,GPT
+peru,geography,0.5140697260697683,3,GPT
+peru,tradition,0.24095008770624796,3,GPT
+republica dominicana,dish,0.7325216407577196,3,GPT
+republica dominicana,fauna,0.4444856146971385,3,GPT
+republica dominicana,flora,0.48989566167195636,3,GPT
+republica dominicana,geography,0.464447945356369,3,GPT
+republica dominicana,object,0.5171634256839752,3,GPT
+uruguay,dish,0.6344146430492401,3,GPT
+uruguay,fauna,0.5221793949604034,3,GPT
+uruguay,flora,0.4527573784192403,3,GPT
+uruguay,geography,0.4300629496574402,3,GPT
+uruguay,tradition,0.6059669603904089,3,GPT
+venezuela,dish,0.5648793193201224,3,GPT
+venezuela,fauna,0.5527966717878977,3,GPT
+venezuela,geography,0.5106286803881327,3,GPT
+venezuela,object,0.7240316594640414,3,GPT
+venezuela,tradition,0.6503783588608106,3,GPT

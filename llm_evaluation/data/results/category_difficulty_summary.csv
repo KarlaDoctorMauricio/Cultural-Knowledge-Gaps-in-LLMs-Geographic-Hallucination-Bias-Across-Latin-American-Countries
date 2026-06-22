@@ -1,0 +1,15 @@
+method,category,mae_global,n_preguntas_global,confiable,is_hard_category,is_easy_category,higher_than_geography_all_countries,higher_than_flora_all_countries
+Claude,object,0.6114566930466228,18,True,False,False,False,False
+Claude,public_figure,0.6038599039117495,9,True,True,False,False,True
+Claude,tradition,0.5802477786589103,48,True,True,False,False,False
+Claude,fauna,0.5770554384216666,48,True,False,False,False,False
+Claude,dish,0.5656123226163564,54,True,False,False,False,False
+Claude,geography,0.5602230577200067,51,True,False,True,False,False
+Claude,flora,0.5093263185450009,42,True,False,True,False,False
+GPT,public_figure,0.6448862707863251,9,True,True,False,True,True
+GPT,object,0.5735538059638606,18,True,False,False,False,False
+GPT,dish,0.5645829014894035,54,True,False,False,False,False
+GPT,tradition,0.546546106110327,48,True,True,False,False,False
+GPT,fauna,0.5327487868101647,48,True,False,False,False,False
+GPT,geography,0.5264086510036506,51,True,False,True,False,False
+GPT,flora,0.5161780331815992,42,True,False,True,False,False

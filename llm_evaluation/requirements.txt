@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+sentence-transformers
+torch
+openai
+anthropic
+huggingface_hub
+python-dotenv
+umap-learn
+matplotlib
+scipy
+tqdm
+pytest

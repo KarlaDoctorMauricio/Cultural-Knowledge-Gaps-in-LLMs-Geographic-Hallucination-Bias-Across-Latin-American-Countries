@@ -1,0 +1,19 @@
+pais,n_total,n_dish,n_tradition,n_public_figure,n_geography,n_flora,n_fauna,n_object,pct_public_figure
+bolivia,15,3,3,3,3,0,3,0,20.0
+chile,15,3,3,3,3,3,0,0,20.0
+colombia,15,3,3,3,3,0,3,0,20.0
+argentina,15,3,3,0,3,3,3,0,0.0
+costa rica,15,3,3,0,3,3,3,0,0.0
+cuba,15,3,0,0,3,3,3,3,0.0
+ecuador,15,3,3,0,3,3,3,0,0.0
+el salvador,15,3,3,0,3,3,3,0,0.0
+guatemala,15,3,3,0,3,3,3,0,0.0
+honduras,15,3,3,0,3,3,3,0,0.0
+mexico,15,3,3,0,0,3,3,3,0.0
+nicaragua,15,3,3,0,3,3,3,0,0.0
+panama,15,3,3,0,3,0,3,3,0.0
+paraguay,15,3,3,0,3,3,0,3,0.0
+peru,15,3,3,0,3,3,3,0,0.0
+republica dominicana,15,3,0,0,3,3,3,3,0.0
+uruguay,15,3,3,0,3,3,3,0,0.0
+venezuela,15,3,3,0,3,0,3,3,0.0

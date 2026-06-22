@@ -1,0 +1,72 @@
+pais,model,rank_en_pais,Question,Answer,response,score,Category,Difficulty
+argentina,GPT,1,¿Qué instrumento tocó Oscar Alem antes de pasarse al piano?,Contrabajo,Oscar Alem tocó el acordeón antes de pasarse al piano.,0.0145306568592786,tradition,INTERMEDIA
+argentina,GPT,2,¿Dónde nació Antonio Gonzaga?,Corrientes,Antonio Gonzaga nació en Italia.,0.0182333588600158,dish,FÁCIL
+argentina,GPT,3,¿Dónde se encuentra la bahía Golondrina?,en la margen septentrional del canal Beagle,"La bahía Golondrina se encuentra en la costa de la provincia de Chubut, Argentina, en la región de la Patagonia.",0.1259059160947799,geography,INTERMEDIA
+argentina,GPT,4,¿Qué características geográficas y oceanográficas tiene la bahía Relegada?,tiene una profundidad de alrededor de 3000 metros y una superficie total de 158 ha,"La bahía Relegada, ubicada en la costa de Chile, se caracteriza por ser una bahía semi-cerrada con aguas relativamente tranquilas. Sus características geográficas incluyen acantilados y una costa rocosa, mientras que en términos oceanográficos, presenta una mezcla de aguas frías y corrientes que influyen en su biodiversidad marina. Además, la bahía suele estar influenciada por fenómenos como las mareas y las corrientes costeras.",0.1886481642723083,geography,DIFÍCIL
+argentina,GPT,5,¿Dónde nació Raúl Barboza?,Buenos Aires,"Raúl Barboza nació en Formosa, Argentina.",0.3337393999099731,tradition,FÁCIL
+chile,GPT,1,¿En qué año fue fundado el Festival Internacional de Teatro Itinerante por Chiloé Profundo?,el año 2010.,El Festival Internacional de Teatro Itinerante por Chiloé Profundo fue fundado en 2003.,0.1423538923263549,tradition,INTERMEDIA
+chile,GPT,2,¿En qué institución trabajó Próspero Bisquertt Prado entre los años 1913 y 1923?,Trabajó en la Dirección General de Impuestos Internos.,Próspero Bisquertt Prado trabajó en la Universidad de Chile entre 1913 y 1923.,0.14777871966362,public_figure,INTERMEDIA
+chile,GPT,3,¿Qué tipo de lugar es Puerto Río Tranquilo?,una pequeña aldea,"Puerto Río Tranquilo es una localidad ubicada en la Región de Aysén, Chile, conocida por su belleza natural, especialmente por las formaciones de mármol en el Lago General Carrera y su entorno de montañas y bosques. Es un destino turístico popular para actividades al aire libre como el senderismo y el kayak.",0.1481734216213226,geography,FÁCIL
+chile,GPT,4,¿Qué nombre común recibe el Choromytilus chorus?,choro zapato y choro maltón,"El Choromytilus chorus es comúnmente conocido como ""mejillón chileno"".",0.172441691160202,dish,FÁCIL
+chile,GPT,5,¿Qué tipo de especie es Alstroemeria huemulina?,una especie fanerógama,Alstroemeria huemulina es una especie de planta herbácea perenne perteneciente a la familia Alstroemeriaceae.,0.2547516226768493,flora,FÁCIL
+panama,GPT,1,¿Qué tipo de lugar es Los Milagros?,corregimiento,"Los Milagros es un municipio en España, situado en la provincia de Cáceres, en la comunidad autónoma de Extremadura. Es conocido por su entorno rural y su patrimonio cultural.",0.0,geography,FÁCIL
+panama,GPT,2,¿Quiénes describieron la especie Pseudosparna dimitrisi y en qué año?,"Fue descrita por Nearns, Swift & Santos-Silva en 2023.",La especie Pseudosparna dimitrisi fue descrita por los científicos A. P. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K.,0.0639209672808647,fauna,DIFÍCIL
+panama,GPT,3,¿Qué ingredientes puede llevar el guacho de arroz?,guandú,"El guacho de arroz puede llevar ingredientes como pollo, cerdo, mariscos, pescado, verduras, especias, y a veces frijoles o habichuelas. La receta varía según la región y las preferencias personales.",0.1231635361909866,dish,INTERMEDIA
+panama,GPT,4,¿Dónde se encuentra Tmarus rubinus?,En Panamá.,"Tmarus rubinus se encuentra en Europa, especialmente en regiones como el sur de Francia y la península ibérica.",0.1691298186779022,fauna,INTERMEDIA
+panama,GPT,5,¿Qué es la mejorana?,un instrumento musical de cuerda originario de Panamá,"La mejorana es una planta herbácea aromática de la familia de las Lamiáceas, conocida científicamente como Origanum majorana. Se utiliza comúnmente como especia en la cocina mediterránea y tiene propiedades medicinales. Su sabor es similar al orégano, pero más suave y dulce.",0.2364482581615448,object,FÁCIL
+argentina,Claude,1,¿Qué instrumento tocó Oscar Alem antes de pasarse al piano?,Contrabajo,"No tengo información específica sobre Oscar Alem y qué instrumento tocó antes del piano. Para darte una respuesta precisa, necesitaría más contexto o acceso a fuentes sobre este músico en particular. ¿Podrías proporcionar más detalles sobre quién es Oscar Alem?",0.0054569067433476,tradition,INTERMEDIA
+argentina,Claude,2,¿Dónde se encuentra la bahía Golondrina?,en la margen septentrional del canal Beagle,"La Bahía Golondrina se encuentra en **Tierra del Fuego, Argentina**, específicamente en la costa sur de la isla de Tierra del Fuego, en la provincia de Tierra del Fuego, Antártida e Islas del Atlántico Sur.",0.0363449156284332,geography,INTERMEDIA
+argentina,Claude,3,¿Dónde nació Antonio Gonzaga?,Corrientes,"No tengo información específica sobre dónde nació Antonio Gonzaga. Este nombre es bastante común en países hispanohablantes y portugueses, por lo que podría referirse a varias personas diferentes (históricos, artistas, deportistas, etc.). 
+
+¿Podrías proporcionar más contexto sobre cuál Antonio Gonzaga te interesa?",0.0413275212049484,dish,FÁCIL
+argentina,Claude,4,¿Dónde se encuentra Lysapsus limellum?,"en el centro del Brasil en los estados de Mato Grosso y Rondônia; en el Paraguay; en Bolivia en los departamentos del Beni, Cochabamba, La Paz, Santa Cruz, y Pando; en Argentina en las provincias de Buenos Aires, Corrientes, Chaco, Entre Ríos, Formosa, Santa Fe y Santiago del Estero; y en el Uruguay en las Termas del Arapey en Salto y en el departamento de Artigas.","No tengo información específica sobre ""Lysapsus limellum"" en mis conocimientos. 
+
+¿Podrías proporcionar más contexto? Por ejemplo:
+- ¿Es una especie biológica (animal, planta, hongo)?
+- ¿En qué región o país crees que se encuentra?
+- ¿De dónde obtuviste este nombre?
+
+Con más detalles podría ayudarte mejor.",0.1625159680843353,fauna,INTERMEDIA
+argentina,Claude,5,¿Qué características geográficas y oceanográficas tiene la bahía Relegada?,tiene una profundidad de alrededor de 3000 metros y una superficie total de 158 ha,"No tengo información sobre una ""bahía Relegada"" en mis conocimientos geográficos. 
+
+Es posible que:
+- El nombre esté escrito de forma diferente
+- Sea una bahía poco conocida o local
+- Haya un error en la denominación
+
+¿Podrías proporcionar más contexto, como el país o región donde se encuentra, o verificar el nombre? Así podré ayudarte mejor.",0.1932152509689331,geography,DIFÍCIL
+chile,Claude,1,¿Qué microalga fue responsable de la crisis de la marea roja en Chiloé de 2016?,Alexandrium catenella,"La microalga responsable fue **Alexandrium catenella**, un dinoflagelado que produce toxinas paralizantes (saxitoxina). Este evento causó una de las mayores crisis de marea roja en la historia de Chiloé, afectando gravemente la industria del cultivo de moluscos.",0.1694828569889068,geography,INTERMEDIA
+chile,Claude,2,¿En qué año fue fundada la banda Amerindios?,en 1967 en Santiago de Chile,"No tengo información específica sobre una banda llamada ""Amerindios"" en mis conocimientos. Para darte una respuesta precisa, necesitaría más contexto, como el género musical, el país de origen o si es una banda actual o histórica. ¿Podrías proporcionar más detalles?",0.188340276479721,tradition,FÁCIL
+chile,Claude,3,¿En qué año fue fundado el Festival Internacional de Teatro Itinerante por Chiloé Profundo?,el año 2010.,"No tengo información confiable sobre la fundación del Festival Internacional de Teatro Itinerante por Chiloé Profundo. Para obtener una respuesta precisa, te recomiendo consultar fuentes locales de Chiloé o contactar directamente con la organización.",0.1945194900035858,tradition,INTERMEDIA
+chile,Claude,4,¿En qué institución trabajó Próspero Bisquertt Prado entre los años 1913 y 1923?,Trabajó en la Dirección General de Impuestos Internos.,"No tengo información específica sobre dónde trabajó Próspero Bisquertt Prado entre 1913 y 1923. Para obtener esta información precisa, te recomendaría consultar fuentes históricas, biografías especializadas o archivos sobre este personaje.",0.1984181404113769,public_figure,INTERMEDIA
+chile,Claude,5,¿Qué nombre común recibe el Choromytilus chorus?,choro zapato y choro maltón,El Choromytilus chorus recibe el nombre común de **cholga** o **choro**.,0.1995249986648559,dish,FÁCIL
+panama,Claude,1,¿Dónde se encuentra Tmarus rubinus?,En Panamá.,"Tmarus rubinus es una especie de araña que se encuentra en **América del Sur**, particularmente en países como **Brasil** y otras regiones de la cuenca amazónica. Es una araña de la familia Thomisidae (arañas cangrejo).",0.1418679058551788,fauna,INTERMEDIA
+panama,Claude,2,¿Qué tipo de lugar es Los Milagros?,corregimiento,"No tengo suficiente contexto para responder con precisión. ""Los Milagros"" puede referirse a varios lugares:
+
+- Un **acueducto romano** en Mérida, España
+- Varios **pueblos o municipios** en países hispanohablantes
+- Otros sitios geográficos o establecimientos
+
+¿Podrías especificar en qué país o región se encuentra el lugar que preguntas?",0.1508574187755584,geography,FÁCIL
+panama,Claude,3,¿Qué es la hojaldra?,una fritura típica de países latinoamericanos como Colombia y Panamá,"La hojaldra es una masa de repostería hecha con harina, agua, sal y mantequilla. Se caracteriza por tener múltiples capas finas y crujientes que se forman al plegar la masa repetidamente con mantequilla.
+
+Se utiliza para preparar postres y productos salados como croissants, palmeras, tartas, empanadas y otros productos de pastelería. Su textura hojaldrada y crujiente es lo que la distingue.",0.2173401713371276,dish,FÁCIL
+panama,Claude,4,¿Quiénes describieron la especie Pseudosparna dimitrisi y en qué año?,"Fue descrita por Nearns, Swift & Santos-Silva en 2023.","No tengo información específica sobre quiénes describieron la especie *Pseudosparna dimitrisi* ni en qué año. Para obtener esta información precisa, te recomiendo consultar bases de datos especializadas como:
+
+- Zoological Record
+- WoRW (World Register of Marine Species)
+- Literatura taxonómica especializada en la especie
+
+¿Podrías proporcionar más contexto sobre esta especie para ayudarte mejor?",0.2571456432342529,fauna,DIFÍCIL
+panama,Claude,5,¿Qué es la mejorana?,un instrumento musical de cuerda originario de Panamá,"# Mejorana
+
+La mejorana es una **planta aromática** de la familia de las labiadas, muy similar al orégano pero con un sabor más suave y delicado.
+
+## Características principales:
+
+- **Origen**: Región mediterránea
+- **Uso culinario**: Se emplea como condimento en cocina, especialmente en platos italianos y españoles
+- **Propiedades**: Tiene propiedades digestivas, antiespasmódicas y relajantes
+- **Presentación**: Se usa fresca o seca
+
+Es común confundirla con el orégano, aunque la mejorana tiene un aroma más dulce y menos intenso.",0.2581228017807007,object,FÁCIL

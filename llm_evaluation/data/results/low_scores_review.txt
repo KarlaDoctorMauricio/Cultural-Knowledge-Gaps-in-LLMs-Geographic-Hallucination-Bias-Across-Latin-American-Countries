@@ -1,0 +1,150 @@
+REVISION MANUAL — peores scores (rank 1-3) en argentina y chile
+
+Total de casos: 12
+
+================================================================================
+ARGENTINA | Claude | rank 1 | score 0.0055 | tradition / INTERMEDIA
+================================================================================
+PREGUNTA:
+¿Qué instrumento tocó Oscar Alem antes de pasarse al piano?
+
+RESPUESTA ESPERADA (Answer):
+Contrabajo
+
+RESPONSE_CLAUDE:
+No tengo información específica sobre Oscar Alem y qué instrumento tocó antes del piano. Para darte una respuesta precisa, necesitaría más contexto o acceso a fuentes sobre este músico en particular. ¿Podrías proporcionar más detalles sobre quién es Oscar Alem?
+
+================================================================================
+ARGENTINA | Claude | rank 2 | score 0.0363 | geography / INTERMEDIA
+================================================================================
+PREGUNTA:
+¿Dónde se encuentra la bahía Golondrina?
+
+RESPUESTA ESPERADA (Answer):
+en la margen septentrional del canal Beagle
+
+RESPONSE_CLAUDE:
+La Bahía Golondrina se encuentra en **Tierra del Fuego, Argentina**, específicamente en la costa sur de la isla de Tierra del Fuego, en la provincia de Tierra del Fuego, Antártida e Islas del Atlántico Sur.
+
+================================================================================
+ARGENTINA | Claude | rank 3 | score 0.0413 | dish / FÁCIL
+================================================================================
+PREGUNTA:
+¿Dónde nació Antonio Gonzaga?
+
+RESPUESTA ESPERADA (Answer):
+Corrientes
+
+RESPONSE_CLAUDE:
+No tengo información específica sobre dónde nació Antonio Gonzaga. Este nombre es bastante común en países hispanohablantes y portugueses, por lo que podría referirse a varias personas diferentes (históricos, artistas, deportistas, etc.). 
+
+¿Podrías proporcionar más contexto sobre cuál Antonio Gonzaga te interesa?
+
+================================================================================
+ARGENTINA | GPT | rank 1 | score 0.0145 | tradition / INTERMEDIA
+================================================================================
+PREGUNTA:
+¿Qué instrumento tocó Oscar Alem antes de pasarse al piano?
+
+RESPUESTA ESPERADA (Answer):
+Contrabajo
+
+RESPONSE_GPT:
+Oscar Alem tocó el acordeón antes de pasarse al piano.
+
+================================================================================
+ARGENTINA | GPT | rank 2 | score 0.0182 | dish / FÁCIL
+================================================================================
+PREGUNTA:
+¿Dónde nació Antonio Gonzaga?
+
+RESPUESTA ESPERADA (Answer):
+Corrientes
+
+RESPONSE_GPT:
+Antonio Gonzaga nació en Italia.
+
+================================================================================
+ARGENTINA | GPT | rank 3 | score 0.1259 | geography / INTERMEDIA
+================================================================================
+PREGUNTA:
+¿Dónde se encuentra la bahía Golondrina?
+
+RESPUESTA ESPERADA (Answer):
+en la margen septentrional del canal Beagle
+
+RESPONSE_GPT:
+La bahía Golondrina se encuentra en la costa de la provincia de Chubut, Argentina, en la región de la Patagonia.
+
+================================================================================
+CHILE | Claude | rank 1 | score 0.1695 | geography / INTERMEDIA
+================================================================================
+PREGUNTA:
+¿Qué microalga fue responsable de la crisis de la marea roja en Chiloé de 2016?
+
+RESPUESTA ESPERADA (Answer):
+Alexandrium catenella
+
+RESPONSE_CLAUDE:
+La microalga responsable fue **Alexandrium catenella**, un dinoflagelado que produce toxinas paralizantes (saxitoxina). Este evento causó una de las mayores crisis de marea roja en la historia de Chiloé, afectando gravemente la industria del cultivo de moluscos.
+
+================================================================================
+CHILE | Claude | rank 2 | score 0.1883 | tradition / FÁCIL
+================================================================================
+PREGUNTA:
+¿En qué año fue fundada la banda Amerindios?
+
+RESPUESTA ESPERADA (Answer):
+en 1967 en Santiago de Chile
+
+RESPONSE_CLAUDE:
+No tengo información específica sobre una banda llamada "Amerindios" en mis conocimientos. Para darte una respuesta precisa, necesitaría más contexto, como el género musical, el país de origen o si es una banda actual o histórica. ¿Podrías proporcionar más detalles?
+
+================================================================================
+CHILE | Claude | rank 3 | score 0.1945 | tradition / INTERMEDIA
+================================================================================
+PREGUNTA:
+¿En qué año fue fundado el Festival Internacional de Teatro Itinerante por Chiloé Profundo?
+
+RESPUESTA ESPERADA (Answer):
+el año 2010.
+
+RESPONSE_CLAUDE:
+No tengo información confiable sobre la fundación del Festival Internacional de Teatro Itinerante por Chiloé Profundo. Para obtener una respuesta precisa, te recomiendo consultar fuentes locales de Chiloé o contactar directamente con la organización.
+
+================================================================================
+CHILE | GPT | rank 1 | score 0.1424 | tradition / INTERMEDIA
+================================================================================
+PREGUNTA:
+¿En qué año fue fundado el Festival Internacional de Teatro Itinerante por Chiloé Profundo?
+
+RESPUESTA ESPERADA (Answer):
+el año 2010.
+
+RESPONSE_GPT:
+El Festival Internacional de Teatro Itinerante por Chiloé Profundo fue fundado en 2003.
+
+================================================================================
+CHILE | GPT | rank 2 | score 0.1478 | public_figure / INTERMEDIA
+================================================================================
+PREGUNTA:
+¿En qué institución trabajó Próspero Bisquertt Prado entre los años 1913 y 1923?
+
+RESPUESTA ESPERADA (Answer):
+Trabajó en la Dirección General de Impuestos Internos.
+
+RESPONSE_GPT:
+Próspero Bisquertt Prado trabajó en la Universidad de Chile entre 1913 y 1923.
+
+================================================================================
+CHILE | GPT | rank 3 | score 0.1482 | geography / FÁCIL
+================================================================================
+PREGUNTA:
+¿Qué tipo de lugar es Puerto Río Tranquilo?
+
+RESPUESTA ESPERADA (Answer):
+una pequeña aldea
+
+RESPONSE_GPT:
+Puerto Río Tranquilo es una localidad ubicada en la Región de Aysén, Chile, conocida por su belleza natural, especialmente por las formaciones de mármol en el Lago General Carrera y su entorno de montañas y bosques. Es un destino turístico popular para actividades al aire libre como el senderismo y el kayak.
+

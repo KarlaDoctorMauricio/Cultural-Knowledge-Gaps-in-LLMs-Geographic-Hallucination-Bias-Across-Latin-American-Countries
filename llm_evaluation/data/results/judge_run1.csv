@@ -1,0 +1,541 @@
+row_index,pais,model,judge_label,judge_prompt_version,judge_run_id
+0,argentina,GPT,parcial,v2_fixed_system_prompt,1
+1,argentina,GPT,alucinacion,v2_fixed_system_prompt,1
+2,argentina,GPT,alucinacion,v2_fixed_system_prompt,1
+3,argentina,GPT,parcial,v2_fixed_system_prompt,1
+4,argentina,GPT,correcta,v2_fixed_system_prompt,1
+5,argentina,GPT,parcial,v2_fixed_system_prompt,1
+6,argentina,GPT,parcial,v2_fixed_system_prompt,1
+7,argentina,GPT,correcta,v2_fixed_system_prompt,1
+8,argentina,GPT,alucinacion,v2_fixed_system_prompt,1
+9,argentina,GPT,alucinacion,v2_fixed_system_prompt,1
+10,argentina,GPT,parcial,v2_fixed_system_prompt,1
+11,argentina,GPT,alucinacion,v2_fixed_system_prompt,1
+12,argentina,GPT,alucinacion,v2_fixed_system_prompt,1
+13,argentina,GPT,alucinacion,v2_fixed_system_prompt,1
+14,argentina,GPT,alucinacion,v2_fixed_system_prompt,1
+15,bolivia,GPT,parcial,v2_fixed_system_prompt,1
+16,bolivia,GPT,correcta,v2_fixed_system_prompt,1
+17,bolivia,GPT,parcial,v2_fixed_system_prompt,1
+18,bolivia,GPT,parcial,v2_fixed_system_prompt,1
+19,bolivia,GPT,parcial,v2_fixed_system_prompt,1
+20,bolivia,GPT,alucinacion,v2_fixed_system_prompt,1
+21,bolivia,GPT,parcial,v2_fixed_system_prompt,1
+22,bolivia,GPT,correcta,v2_fixed_system_prompt,1
+23,bolivia,GPT,alucinacion,v2_fixed_system_prompt,1
+24,bolivia,GPT,alucinacion,v2_fixed_system_prompt,1
+25,bolivia,GPT,abstencion,v2_fixed_system_prompt,1
+26,bolivia,GPT,alucinacion,v2_fixed_system_prompt,1
+27,bolivia,GPT,parcial,v2_fixed_system_prompt,1
+28,bolivia,GPT,parcial,v2_fixed_system_prompt,1
+29,bolivia,GPT,parcial,v2_fixed_system_prompt,1
+30,chile,GPT,parcial,v2_fixed_system_prompt,1
+31,chile,GPT,alucinacion,v2_fixed_system_prompt,1
+32,chile,GPT,parcial,v2_fixed_system_prompt,1
+33,chile,GPT,parcial,v2_fixed_system_prompt,1
+34,chile,GPT,parcial,v2_fixed_system_prompt,1
+35,chile,GPT,parcial,v2_fixed_system_prompt,1
+36,chile,GPT,parcial,v2_fixed_system_prompt,1
+37,chile,GPT,parcial,v2_fixed_system_prompt,1
+38,chile,GPT,correcta,v2_fixed_system_prompt,1
+39,chile,GPT,parcial,v2_fixed_system_prompt,1
+40,chile,GPT,correcta,v2_fixed_system_prompt,1
+41,chile,GPT,alucinacion,v2_fixed_system_prompt,1
+42,chile,GPT,parcial,v2_fixed_system_prompt,1
+43,chile,GPT,alucinacion,v2_fixed_system_prompt,1
+44,chile,GPT,alucinacion,v2_fixed_system_prompt,1
+45,colombia,GPT,parcial,v2_fixed_system_prompt,1
+46,colombia,GPT,parcial,v2_fixed_system_prompt,1
+47,colombia,GPT,alucinacion,v2_fixed_system_prompt,1
+48,colombia,GPT,parcial,v2_fixed_system_prompt,1
+49,colombia,GPT,correcta,v2_fixed_system_prompt,1
+50,colombia,GPT,parcial,v2_fixed_system_prompt,1
+51,colombia,GPT,parcial,v2_fixed_system_prompt,1
+52,colombia,GPT,correcta,v2_fixed_system_prompt,1
+53,colombia,GPT,correcta,v2_fixed_system_prompt,1
+54,colombia,GPT,alucinacion,v2_fixed_system_prompt,1
+55,colombia,GPT,alucinacion,v2_fixed_system_prompt,1
+56,colombia,GPT,alucinacion,v2_fixed_system_prompt,1
+57,colombia,GPT,alucinacion,v2_fixed_system_prompt,1
+58,colombia,GPT,correcta,v2_fixed_system_prompt,1
+59,colombia,GPT,alucinacion,v2_fixed_system_prompt,1
+60,costa rica,GPT,parcial,v2_fixed_system_prompt,1
+61,costa rica,GPT,correcta,v2_fixed_system_prompt,1
+62,costa rica,GPT,parcial,v2_fixed_system_prompt,1
+63,costa rica,GPT,correcta,v2_fixed_system_prompt,1
+64,costa rica,GPT,alucinacion,v2_fixed_system_prompt,1
+65,costa rica,GPT,alucinacion,v2_fixed_system_prompt,1
+66,costa rica,GPT,parcial,v2_fixed_system_prompt,1
+67,costa rica,GPT,correcta,v2_fixed_system_prompt,1
+68,costa rica,GPT,parcial,v2_fixed_system_prompt,1
+69,costa rica,GPT,correcta,v2_fixed_system_prompt,1
+70,costa rica,GPT,parcial,v2_fixed_system_prompt,1
+71,costa rica,GPT,alucinacion,v2_fixed_system_prompt,1
+72,costa rica,GPT,alucinacion,v2_fixed_system_prompt,1
+73,costa rica,GPT,parcial,v2_fixed_system_prompt,1
+74,costa rica,GPT,alucinacion,v2_fixed_system_prompt,1
+75,cuba,GPT,alucinacion,v2_fixed_system_prompt,1
+76,cuba,GPT,alucinacion,v2_fixed_system_prompt,1
+77,cuba,GPT,correcta,v2_fixed_system_prompt,1
+78,cuba,GPT,parcial,v2_fixed_system_prompt,1
+79,cuba,GPT,correcta,v2_fixed_system_prompt,1
+80,cuba,GPT,alucinacion,v2_fixed_system_prompt,1
+81,cuba,GPT,alucinacion,v2_fixed_system_prompt,1
+82,cuba,GPT,correcta,v2_fixed_system_prompt,1
+83,cuba,GPT,parcial,v2_fixed_system_prompt,1
+84,cuba,GPT,correcta,v2_fixed_system_prompt,1
+85,cuba,GPT,correcta,v2_fixed_system_prompt,1
+86,cuba,GPT,alucinacion,v2_fixed_system_prompt,1
+87,cuba,GPT,parcial,v2_fixed_system_prompt,1
+88,cuba,GPT,correcta,v2_fixed_system_prompt,1
+89,cuba,GPT,correcta,v2_fixed_system_prompt,1
+90,ecuador,GPT,parcial,v2_fixed_system_prompt,1
+91,ecuador,GPT,parcial,v2_fixed_system_prompt,1
+92,ecuador,GPT,parcial,v2_fixed_system_prompt,1
+93,ecuador,GPT,parcial,v2_fixed_system_prompt,1
+94,ecuador,GPT,correcta,v2_fixed_system_prompt,1
+95,ecuador,GPT,parcial,v2_fixed_system_prompt,1
+96,ecuador,GPT,alucinacion,v2_fixed_system_prompt,1
+97,ecuador,GPT,alucinacion,v2_fixed_system_prompt,1
+98,ecuador,GPT,correcta,v2_fixed_system_prompt,1
+99,ecuador,GPT,parcial,v2_fixed_system_prompt,1
+100,ecuador,GPT,alucinacion,v2_fixed_system_prompt,1
+101,ecuador,GPT,correcta,v2_fixed_system_prompt,1
+102,ecuador,GPT,parcial,v2_fixed_system_prompt,1
+103,ecuador,GPT,parcial,v2_fixed_system_prompt,1
+104,ecuador,GPT,parcial,v2_fixed_system_prompt,1
+105,el salvador,GPT,parcial,v2_fixed_system_prompt,1
+106,el salvador,GPT,parcial,v2_fixed_system_prompt,1
+107,el salvador,GPT,parcial,v2_fixed_system_prompt,1
+108,el salvador,GPT,parcial,v2_fixed_system_prompt,1
+109,el salvador,GPT,correcta,v2_fixed_system_prompt,1
+110,el salvador,GPT,parcial,v2_fixed_system_prompt,1
+111,el salvador,GPT,parcial,v2_fixed_system_prompt,1
+112,el salvador,GPT,correcta,v2_fixed_system_prompt,1
+113,el salvador,GPT,parcial,v2_fixed_system_prompt,1
+114,el salvador,GPT,alucinacion,v2_fixed_system_prompt,1
+115,el salvador,GPT,parcial,v2_fixed_system_prompt,1
+116,el salvador,GPT,alucinacion,v2_fixed_system_prompt,1
+117,el salvador,GPT,parcial,v2_fixed_system_prompt,1
+118,el salvador,GPT,correcta,v2_fixed_system_prompt,1
+119,el salvador,GPT,parcial,v2_fixed_system_prompt,1
+120,guatemala,GPT,correcta,v2_fixed_system_prompt,1
+121,guatemala,GPT,alucinacion,v2_fixed_system_prompt,1
+122,guatemala,GPT,alucinacion,v2_fixed_system_prompt,1
+123,guatemala,GPT,alucinacion,v2_fixed_system_prompt,1
+124,guatemala,GPT,correcta,v2_fixed_system_prompt,1
+125,guatemala,GPT,alucinacion,v2_fixed_system_prompt,1
+126,guatemala,GPT,alucinacion,v2_fixed_system_prompt,1
+127,guatemala,GPT,correcta,v2_fixed_system_prompt,1
+128,guatemala,GPT,alucinacion,v2_fixed_system_prompt,1
+129,guatemala,GPT,parcial,v2_fixed_system_prompt,1
+130,guatemala,GPT,alucinacion,v2_fixed_system_prompt,1
+131,guatemala,GPT,parcial,v2_fixed_system_prompt,1
+132,guatemala,GPT,parcial,v2_fixed_system_prompt,1
+133,guatemala,GPT,parcial,v2_fixed_system_prompt,1
+134,guatemala,GPT,parcial,v2_fixed_system_prompt,1
+135,honduras,GPT,parcial,v2_fixed_system_prompt,1
+136,honduras,GPT,alucinacion,v2_fixed_system_prompt,1
+137,honduras,GPT,parcial,v2_fixed_system_prompt,1
+138,honduras,GPT,parcial,v2_fixed_system_prompt,1
+139,honduras,GPT,correcta,v2_fixed_system_prompt,1
+140,honduras,GPT,parcial,v2_fixed_system_prompt,1
+141,honduras,GPT,alucinacion,v2_fixed_system_prompt,1
+142,honduras,GPT,parcial,v2_fixed_system_prompt,1
+143,honduras,GPT,alucinacion,v2_fixed_system_prompt,1
+144,honduras,GPT,alucinacion,v2_fixed_system_prompt,1
+145,honduras,GPT,correcta,v2_fixed_system_prompt,1
+146,honduras,GPT,alucinacion,v2_fixed_system_prompt,1
+147,honduras,GPT,parcial,v2_fixed_system_prompt,1
+148,honduras,GPT,correcta,v2_fixed_system_prompt,1
+149,honduras,GPT,alucinacion,v2_fixed_system_prompt,1
+150,mexico,GPT,parcial,v2_fixed_system_prompt,1
+151,mexico,GPT,alucinacion,v2_fixed_system_prompt,1
+152,mexico,GPT,parcial,v2_fixed_system_prompt,1
+153,mexico,GPT,alucinacion,v2_fixed_system_prompt,1
+154,mexico,GPT,correcta,v2_fixed_system_prompt,1
+155,mexico,GPT,parcial,v2_fixed_system_prompt,1
+156,mexico,GPT,parcial,v2_fixed_system_prompt,1
+157,mexico,GPT,correcta,v2_fixed_system_prompt,1
+158,mexico,GPT,parcial,v2_fixed_system_prompt,1
+159,mexico,GPT,alucinacion,v2_fixed_system_prompt,1
+160,mexico,GPT,correcta,v2_fixed_system_prompt,1
+161,mexico,GPT,alucinacion,v2_fixed_system_prompt,1
+162,mexico,GPT,correcta,v2_fixed_system_prompt,1
+163,mexico,GPT,alucinacion,v2_fixed_system_prompt,1
+164,mexico,GPT,alucinacion,v2_fixed_system_prompt,1
+165,nicaragua,GPT,correcta,v2_fixed_system_prompt,1
+166,nicaragua,GPT,parcial,v2_fixed_system_prompt,1
+167,nicaragua,GPT,alucinacion,v2_fixed_system_prompt,1
+168,nicaragua,GPT,alucinacion,v2_fixed_system_prompt,1
+169,nicaragua,GPT,parcial,v2_fixed_system_prompt,1
+170,nicaragua,GPT,parcial,v2_fixed_system_prompt,1
+171,nicaragua,GPT,alucinacion,v2_fixed_system_prompt,1
+172,nicaragua,GPT,correcta,v2_fixed_system_prompt,1
+173,nicaragua,GPT,parcial,v2_fixed_system_prompt,1
+174,nicaragua,GPT,alucinacion,v2_fixed_system_prompt,1
+175,nicaragua,GPT,abstencion,v2_fixed_system_prompt,1
+176,nicaragua,GPT,alucinacion,v2_fixed_system_prompt,1
+177,nicaragua,GPT,parcial,v2_fixed_system_prompt,1
+178,nicaragua,GPT,alucinacion,v2_fixed_system_prompt,1
+179,nicaragua,GPT,parcial,v2_fixed_system_prompt,1
+180,panama,GPT,parcial,v2_fixed_system_prompt,1
+181,panama,GPT,parcial,v2_fixed_system_prompt,1
+182,panama,GPT,parcial,v2_fixed_system_prompt,1
+183,panama,GPT,alucinacion,v2_fixed_system_prompt,1
+184,panama,GPT,correcta,v2_fixed_system_prompt,1
+185,panama,GPT,alucinacion,v2_fixed_system_prompt,1
+186,panama,GPT,alucinacion,v2_fixed_system_prompt,1
+187,panama,GPT,alucinacion,v2_fixed_system_prompt,1
+188,panama,GPT,parcial,v2_fixed_system_prompt,1
+189,panama,GPT,parcial,v2_fixed_system_prompt,1
+190,panama,GPT,alucinacion,v2_fixed_system_prompt,1
+191,panama,GPT,parcial,v2_fixed_system_prompt,1
+192,panama,GPT,alucinacion,v2_fixed_system_prompt,1
+193,panama,GPT,correcta,v2_fixed_system_prompt,1
+194,panama,GPT,parcial,v2_fixed_system_prompt,1
+195,paraguay,GPT,parcial,v2_fixed_system_prompt,1
+196,paraguay,GPT,correcta,v2_fixed_system_prompt,1
+197,paraguay,GPT,correcta,v2_fixed_system_prompt,1
+198,paraguay,GPT,alucinacion,v2_fixed_system_prompt,1
+199,paraguay,GPT,parcial,v2_fixed_system_prompt,1
+200,paraguay,GPT,parcial,v2_fixed_system_prompt,1
+201,paraguay,GPT,correcta,v2_fixed_system_prompt,1
+202,paraguay,GPT,parcial,v2_fixed_system_prompt,1
+203,paraguay,GPT,correcta,v2_fixed_system_prompt,1
+204,paraguay,GPT,alucinacion,v2_fixed_system_prompt,1
+205,paraguay,GPT,correcta,v2_fixed_system_prompt,1
+206,paraguay,GPT,alucinacion,v2_fixed_system_prompt,1
+207,paraguay,GPT,parcial,v2_fixed_system_prompt,1
+208,paraguay,GPT,correcta,v2_fixed_system_prompt,1
+209,paraguay,GPT,alucinacion,v2_fixed_system_prompt,1
+210,peru,GPT,parcial,v2_fixed_system_prompt,1
+211,peru,GPT,parcial,v2_fixed_system_prompt,1
+212,peru,GPT,parcial,v2_fixed_system_prompt,1
+213,peru,GPT,parcial,v2_fixed_system_prompt,1
+214,peru,GPT,correcta,v2_fixed_system_prompt,1
+215,peru,GPT,alucinacion,v2_fixed_system_prompt,1
+216,peru,GPT,parcial,v2_fixed_system_prompt,1
+217,peru,GPT,parcial,v2_fixed_system_prompt,1
+218,peru,GPT,parcial,v2_fixed_system_prompt,1
+219,peru,GPT,parcial,v2_fixed_system_prompt,1
+220,peru,GPT,correcta,v2_fixed_system_prompt,1
+221,peru,GPT,alucinacion,v2_fixed_system_prompt,1
+222,peru,GPT,correcta,v2_fixed_system_prompt,1
+223,peru,GPT,parcial,v2_fixed_system_prompt,1
+224,peru,GPT,parcial,v2_fixed_system_prompt,1
+225,republica dominicana,GPT,correcta,v2_fixed_system_prompt,1
+226,republica dominicana,GPT,correcta,v2_fixed_system_prompt,1
+227,republica dominicana,GPT,alucinacion,v2_fixed_system_prompt,1
+228,republica dominicana,GPT,parcial,v2_fixed_system_prompt,1
+229,republica dominicana,GPT,correcta,v2_fixed_system_prompt,1
+230,republica dominicana,GPT,correcta,v2_fixed_system_prompt,1
+231,republica dominicana,GPT,alucinacion,v2_fixed_system_prompt,1
+232,republica dominicana,GPT,parcial,v2_fixed_system_prompt,1
+233,republica dominicana,GPT,parcial,v2_fixed_system_prompt,1
+234,republica dominicana,GPT,parcial,v2_fixed_system_prompt,1
+235,republica dominicana,GPT,parcial,v2_fixed_system_prompt,1
+236,republica dominicana,GPT,parcial,v2_fixed_system_prompt,1
+237,republica dominicana,GPT,correcta,v2_fixed_system_prompt,1
+238,republica dominicana,GPT,parcial,v2_fixed_system_prompt,1
+239,republica dominicana,GPT,parcial,v2_fixed_system_prompt,1
+240,uruguay,GPT,parcial,v2_fixed_system_prompt,1
+241,uruguay,GPT,alucinacion,v2_fixed_system_prompt,1
+242,uruguay,GPT,correcta,v2_fixed_system_prompt,1
+243,uruguay,GPT,parcial,v2_fixed_system_prompt,1
+244,uruguay,GPT,parcial,v2_fixed_system_prompt,1
+245,uruguay,GPT,correcta,v2_fixed_system_prompt,1
+246,uruguay,GPT,parcial,v2_fixed_system_prompt,1
+247,uruguay,GPT,correcta,v2_fixed_system_prompt,1
+248,uruguay,GPT,alucinacion,v2_fixed_system_prompt,1
+249,uruguay,GPT,alucinacion,v2_fixed_system_prompt,1
+250,uruguay,GPT,alucinacion,v2_fixed_system_prompt,1
+251,uruguay,GPT,parcial,v2_fixed_system_prompt,1
+252,uruguay,GPT,alucinacion,v2_fixed_system_prompt,1
+253,uruguay,GPT,alucinacion,v2_fixed_system_prompt,1
+254,uruguay,GPT,alucinacion,v2_fixed_system_prompt,1
+255,venezuela,GPT,correcta,v2_fixed_system_prompt,1
+256,venezuela,GPT,correcta,v2_fixed_system_prompt,1
+257,venezuela,GPT,parcial,v2_fixed_system_prompt,1
+258,venezuela,GPT,alucinacion,v2_fixed_system_prompt,1
+259,venezuela,GPT,parcial,v2_fixed_system_prompt,1
+260,venezuela,GPT,alucinacion,v2_fixed_system_prompt,1
+261,venezuela,GPT,alucinacion,v2_fixed_system_prompt,1
+262,venezuela,GPT,parcial,v2_fixed_system_prompt,1
+263,venezuela,GPT,correcta,v2_fixed_system_prompt,1
+264,venezuela,GPT,alucinacion,v2_fixed_system_prompt,1
+265,venezuela,GPT,alucinacion,v2_fixed_system_prompt,1
+266,venezuela,GPT,alucinacion,v2_fixed_system_prompt,1
+267,venezuela,GPT,alucinacion,v2_fixed_system_prompt,1
+268,venezuela,GPT,abstencion,v2_fixed_system_prompt,1
+269,venezuela,GPT,abstencion,v2_fixed_system_prompt,1
+0,argentina,Claude,parcial,v2_fixed_system_prompt,1
+1,argentina,Claude,abstencion,v2_fixed_system_prompt,1
+2,argentina,Claude,alucinacion,v2_fixed_system_prompt,1
+3,argentina,Claude,correcta,v2_fixed_system_prompt,1
+4,argentina,Claude,correcta,v2_fixed_system_prompt,1
+5,argentina,Claude,abstencion,v2_fixed_system_prompt,1
+6,argentina,Claude,parcial,v2_fixed_system_prompt,1
+7,argentina,Claude,correcta,v2_fixed_system_prompt,1
+8,argentina,Claude,correcta,v2_fixed_system_prompt,1
+9,argentina,Claude,abstencion,v2_fixed_system_prompt,1
+10,argentina,Claude,correcta,v2_fixed_system_prompt,1
+11,argentina,Claude,alucinacion,v2_fixed_system_prompt,1
+12,argentina,Claude,abstencion,v2_fixed_system_prompt,1
+13,argentina,Claude,alucinacion,v2_fixed_system_prompt,1
+14,argentina,Claude,abstencion,v2_fixed_system_prompt,1
+15,bolivia,Claude,parcial,v2_fixed_system_prompt,1
+16,bolivia,Claude,correcta,v2_fixed_system_prompt,1
+17,bolivia,Claude,correcta,v2_fixed_system_prompt,1
+18,bolivia,Claude,parcial,v2_fixed_system_prompt,1
+19,bolivia,Claude,correcta,v2_fixed_system_prompt,1
+20,bolivia,Claude,abstencion,v2_fixed_system_prompt,1
+21,bolivia,Claude,parcial,v2_fixed_system_prompt,1
+22,bolivia,Claude,correcta,v2_fixed_system_prompt,1
+23,bolivia,Claude,alucinacion,v2_fixed_system_prompt,1
+24,bolivia,Claude,abstencion,v2_fixed_system_prompt,1
+25,bolivia,Claude,abstencion,v2_fixed_system_prompt,1
+26,bolivia,Claude,alucinacion,v2_fixed_system_prompt,1
+27,bolivia,Claude,parcial,v2_fixed_system_prompt,1
+28,bolivia,Claude,alucinacion,v2_fixed_system_prompt,1
+29,bolivia,Claude,abstencion,v2_fixed_system_prompt,1
+30,chile,Claude,parcial,v2_fixed_system_prompt,1
+31,chile,Claude,parcial,v2_fixed_system_prompt,1
+32,chile,Claude,correcta,v2_fixed_system_prompt,1
+33,chile,Claude,parcial,v2_fixed_system_prompt,1
+34,chile,Claude,parcial,v2_fixed_system_prompt,1
+35,chile,Claude,abstencion,v2_fixed_system_prompt,1
+36,chile,Claude,correcta,v2_fixed_system_prompt,1
+37,chile,Claude,parcial,v2_fixed_system_prompt,1
+38,chile,Claude,correcta,v2_fixed_system_prompt,1
+39,chile,Claude,parcial,v2_fixed_system_prompt,1
+40,chile,Claude,alucinacion,v2_fixed_system_prompt,1
+41,chile,Claude,abstencion,v2_fixed_system_prompt,1
+42,chile,Claude,parcial,v2_fixed_system_prompt,1
+43,chile,Claude,abstencion,v2_fixed_system_prompt,1
+44,chile,Claude,abstencion,v2_fixed_system_prompt,1
+45,colombia,Claude,parcial,v2_fixed_system_prompt,1
+46,colombia,Claude,parcial,v2_fixed_system_prompt,1
+47,colombia,Claude,correcta,v2_fixed_system_prompt,1
+48,colombia,Claude,parcial,v2_fixed_system_prompt,1
+49,colombia,Claude,correcta,v2_fixed_system_prompt,1
+50,colombia,Claude,alucinacion,v2_fixed_system_prompt,1
+51,colombia,Claude,correcta,v2_fixed_system_prompt,1
+52,colombia,Claude,correcta,v2_fixed_system_prompt,1
+53,colombia,Claude,parcial,v2_fixed_system_prompt,1
+54,colombia,Claude,alucinacion,v2_fixed_system_prompt,1
+55,colombia,Claude,abstencion,v2_fixed_system_prompt,1
+56,colombia,Claude,abstencion,v2_fixed_system_prompt,1
+57,colombia,Claude,abstencion,v2_fixed_system_prompt,1
+58,colombia,Claude,correcta,v2_fixed_system_prompt,1
+59,colombia,Claude,alucinacion,v2_fixed_system_prompt,1
+60,costa rica,Claude,parcial,v2_fixed_system_prompt,1
+61,costa rica,Claude,correcta,v2_fixed_system_prompt,1
+62,costa rica,Claude,correcta,v2_fixed_system_prompt,1
+63,costa rica,Claude,correcta,v2_fixed_system_prompt,1
+64,costa rica,Claude,alucinacion,v2_fixed_system_prompt,1
+65,costa rica,Claude,alucinacion,v2_fixed_system_prompt,1
+66,costa rica,Claude,parcial,v2_fixed_system_prompt,1
+67,costa rica,Claude,correcta,v2_fixed_system_prompt,1
+68,costa rica,Claude,parcial,v2_fixed_system_prompt,1
+69,costa rica,Claude,correcta,v2_fixed_system_prompt,1
+70,costa rica,Claude,correcta,v2_fixed_system_prompt,1
+71,costa rica,Claude,alucinacion,v2_fixed_system_prompt,1
+72,costa rica,Claude,alucinacion,v2_fixed_system_prompt,1
+73,costa rica,Claude,parcial,v2_fixed_system_prompt,1
+74,costa rica,Claude,abstencion,v2_fixed_system_prompt,1
+75,cuba,Claude,alucinacion,v2_fixed_system_prompt,1
+76,cuba,Claude,parcial,v2_fixed_system_prompt,1
+77,cuba,Claude,parcial,v2_fixed_system_prompt,1
+78,cuba,Claude,alucinacion,v2_fixed_system_prompt,1
+79,cuba,Claude,correcta,v2_fixed_system_prompt,1
+80,cuba,Claude,abstencion,v2_fixed_system_prompt,1
+81,cuba,Claude,alucinacion,v2_fixed_system_prompt,1
+82,cuba,Claude,correcta,v2_fixed_system_prompt,1
+83,cuba,Claude,parcial,v2_fixed_system_prompt,1
+84,cuba,Claude,correcta,v2_fixed_system_prompt,1
+85,cuba,Claude,parcial,v2_fixed_system_prompt,1
+86,cuba,Claude,alucinacion,v2_fixed_system_prompt,1
+87,cuba,Claude,parcial,v2_fixed_system_prompt,1
+88,cuba,Claude,parcial,v2_fixed_system_prompt,1
+89,cuba,Claude,correcta,v2_fixed_system_prompt,1
+90,ecuador,Claude,parcial,v2_fixed_system_prompt,1
+91,ecuador,Claude,abstencion,v2_fixed_system_prompt,1
+92,ecuador,Claude,parcial,v2_fixed_system_prompt,1
+93,ecuador,Claude,parcial,v2_fixed_system_prompt,1
+94,ecuador,Claude,correcta,v2_fixed_system_prompt,1
+95,ecuador,Claude,parcial,v2_fixed_system_prompt,1
+96,ecuador,Claude,alucinacion,v2_fixed_system_prompt,1
+97,ecuador,Claude,alucinacion,v2_fixed_system_prompt,1
+98,ecuador,Claude,parcial,v2_fixed_system_prompt,1
+99,ecuador,Claude,parcial,v2_fixed_system_prompt,1
+100,ecuador,Claude,alucinacion,v2_fixed_system_prompt,1
+101,ecuador,Claude,correcta,v2_fixed_system_prompt,1
+102,ecuador,Claude,parcial,v2_fixed_system_prompt,1
+103,ecuador,Claude,abstencion,v2_fixed_system_prompt,1
+104,ecuador,Claude,parcial,v2_fixed_system_prompt,1
+105,el salvador,Claude,alucinacion,v2_fixed_system_prompt,1
+106,el salvador,Claude,parcial,v2_fixed_system_prompt,1
+107,el salvador,Claude,parcial,v2_fixed_system_prompt,1
+108,el salvador,Claude,parcial,v2_fixed_system_prompt,1
+109,el salvador,Claude,correcta,v2_fixed_system_prompt,1
+110,el salvador,Claude,alucinacion,v2_fixed_system_prompt,1
+111,el salvador,Claude,parcial,v2_fixed_system_prompt,1
+112,el salvador,Claude,correcta,v2_fixed_system_prompt,1
+113,el salvador,Claude,parcial,v2_fixed_system_prompt,1
+114,el salvador,Claude,alucinacion,v2_fixed_system_prompt,1
+115,el salvador,Claude,parcial,v2_fixed_system_prompt,1
+116,el salvador,Claude,abstencion,v2_fixed_system_prompt,1
+117,el salvador,Claude,parcial,v2_fixed_system_prompt,1
+118,el salvador,Claude,correcta,v2_fixed_system_prompt,1
+119,el salvador,Claude,parcial,v2_fixed_system_prompt,1
+120,guatemala,Claude,parcial,v2_fixed_system_prompt,1
+121,guatemala,Claude,alucinacion,v2_fixed_system_prompt,1
+122,guatemala,Claude,alucinacion,v2_fixed_system_prompt,1
+123,guatemala,Claude,alucinacion,v2_fixed_system_prompt,1
+124,guatemala,Claude,correcta,v2_fixed_system_prompt,1
+125,guatemala,Claude,alucinacion,v2_fixed_system_prompt,1
+126,guatemala,Claude,parcial,v2_fixed_system_prompt,1
+127,guatemala,Claude,correcta,v2_fixed_system_prompt,1
+128,guatemala,Claude,alucinacion,v2_fixed_system_prompt,1
+129,guatemala,Claude,parcial,v2_fixed_system_prompt,1
+130,guatemala,Claude,alucinacion,v2_fixed_system_prompt,1
+131,guatemala,Claude,parcial,v2_fixed_system_prompt,1
+132,guatemala,Claude,parcial,v2_fixed_system_prompt,1
+133,guatemala,Claude,parcial,v2_fixed_system_prompt,1
+134,guatemala,Claude,correcta,v2_fixed_system_prompt,1
+135,honduras,Claude,parcial,v2_fixed_system_prompt,1
+136,honduras,Claude,alucinacion,v2_fixed_system_prompt,1
+137,honduras,Claude,alucinacion,v2_fixed_system_prompt,1
+138,honduras,Claude,abstencion,v2_fixed_system_prompt,1
+139,honduras,Claude,parcial,v2_fixed_system_prompt,1
+140,honduras,Claude,alucinacion,v2_fixed_system_prompt,1
+141,honduras,Claude,abstencion,v2_fixed_system_prompt,1
+142,honduras,Claude,parcial,v2_fixed_system_prompt,1
+143,honduras,Claude,parcial,v2_fixed_system_prompt,1
+144,honduras,Claude,alucinacion,v2_fixed_system_prompt,1
+145,honduras,Claude,alucinacion,v2_fixed_system_prompt,1
+146,honduras,Claude,alucinacion,v2_fixed_system_prompt,1
+147,honduras,Claude,abstencion,v2_fixed_system_prompt,1
+148,honduras,Claude,correcta,v2_fixed_system_prompt,1
+149,honduras,Claude,abstencion,v2_fixed_system_prompt,1
+150,mexico,Claude,parcial,v2_fixed_system_prompt,1
+151,mexico,Claude,alucinacion,v2_fixed_system_prompt,1
+152,mexico,Claude,parcial,v2_fixed_system_prompt,1
+153,mexico,Claude,alucinacion,v2_fixed_system_prompt,1
+154,mexico,Claude,correcta,v2_fixed_system_prompt,1
+155,mexico,Claude,parcial,v2_fixed_system_prompt,1
+156,mexico,Claude,parcial,v2_fixed_system_prompt,1
+157,mexico,Claude,correcta,v2_fixed_system_prompt,1
+158,mexico,Claude,parcial,v2_fixed_system_prompt,1
+159,mexico,Claude,abstencion,v2_fixed_system_prompt,1
+160,mexico,Claude,correcta,v2_fixed_system_prompt,1
+161,mexico,Claude,abstencion,v2_fixed_system_prompt,1
+162,mexico,Claude,correcta,v2_fixed_system_prompt,1
+163,mexico,Claude,alucinacion,v2_fixed_system_prompt,1
+164,mexico,Claude,abstencion,v2_fixed_system_prompt,1
+165,nicaragua,Claude,correcta,v2_fixed_system_prompt,1
+166,nicaragua,Claude,parcial,v2_fixed_system_prompt,1
+167,nicaragua,Claude,alucinacion,v2_fixed_system_prompt,1
+168,nicaragua,Claude,alucinacion,v2_fixed_system_prompt,1
+169,nicaragua,Claude,parcial,v2_fixed_system_prompt,1
+170,nicaragua,Claude,alucinacion,v2_fixed_system_prompt,1
+171,nicaragua,Claude,parcial,v2_fixed_system_prompt,1
+172,nicaragua,Claude,correcta,v2_fixed_system_prompt,1
+173,nicaragua,Claude,correcta,v2_fixed_system_prompt,1
+174,nicaragua,Claude,abstencion,v2_fixed_system_prompt,1
+175,nicaragua,Claude,abstencion,v2_fixed_system_prompt,1
+176,nicaragua,Claude,abstencion,v2_fixed_system_prompt,1
+177,nicaragua,Claude,correcta,v2_fixed_system_prompt,1
+178,nicaragua,Claude,abstencion,v2_fixed_system_prompt,1
+179,nicaragua,Claude,parcial,v2_fixed_system_prompt,1
+180,panama,Claude,parcial,v2_fixed_system_prompt,1
+181,panama,Claude,parcial,v2_fixed_system_prompt,1
+182,panama,Claude,parcial,v2_fixed_system_prompt,1
+183,panama,Claude,abstencion,v2_fixed_system_prompt,1
+184,panama,Claude,correcta,v2_fixed_system_prompt,1
+185,panama,Claude,alucinacion,v2_fixed_system_prompt,1
+186,panama,Claude,abstencion,v2_fixed_system_prompt,1
+187,panama,Claude,abstencion,v2_fixed_system_prompt,1
+188,panama,Claude,alucinacion,v2_fixed_system_prompt,1
+189,panama,Claude,parcial,v2_fixed_system_prompt,1
+190,panama,Claude,alucinacion,v2_fixed_system_prompt,1
+191,panama,Claude,parcial,v2_fixed_system_prompt,1
+192,panama,Claude,alucinacion,v2_fixed_system_prompt,1
+193,panama,Claude,correcta,v2_fixed_system_prompt,1
+194,panama,Claude,parcial,v2_fixed_system_prompt,1
+195,paraguay,Claude,parcial,v2_fixed_system_prompt,1
+196,paraguay,Claude,correcta,v2_fixed_system_prompt,1
+197,paraguay,Claude,correcta,v2_fixed_system_prompt,1
+198,paraguay,Claude,alucinacion,v2_fixed_system_prompt,1
+199,paraguay,Claude,parcial,v2_fixed_system_prompt,1
+200,paraguay,Claude,parcial,v2_fixed_system_prompt,1
+201,paraguay,Claude,parcial,v2_fixed_system_prompt,1
+202,paraguay,Claude,alucinacion,v2_fixed_system_prompt,1
+203,paraguay,Claude,alucinacion,v2_fixed_system_prompt,1
+204,paraguay,Claude,alucinacion,v2_fixed_system_prompt,1
+205,paraguay,Claude,parcial,v2_fixed_system_prompt,1
+206,paraguay,Claude,abstencion,v2_fixed_system_prompt,1
+207,paraguay,Claude,abstencion,v2_fixed_system_prompt,1
+208,paraguay,Claude,parcial,v2_fixed_system_prompt,1
+209,paraguay,Claude,abstencion,v2_fixed_system_prompt,1
+210,peru,Claude,correcta,v2_fixed_system_prompt,1
+211,peru,Claude,alucinacion,v2_fixed_system_prompt,1
+212,peru,Claude,correcta,v2_fixed_system_prompt,1
+213,peru,Claude,abstencion,v2_fixed_system_prompt,1
+214,peru,Claude,correcta,v2_fixed_system_prompt,1
+215,peru,Claude,alucinacion,v2_fixed_system_prompt,1
+216,peru,Claude,alucinacion,v2_fixed_system_prompt,1
+217,peru,Claude,correcta,v2_fixed_system_prompt,1
+218,peru,Claude,parcial,v2_fixed_system_prompt,1
+219,peru,Claude,correcta,v2_fixed_system_prompt,1
+220,peru,Claude,correcta,v2_fixed_system_prompt,1
+221,peru,Claude,correcta,v2_fixed_system_prompt,1
+222,peru,Claude,correcta,v2_fixed_system_prompt,1
+223,peru,Claude,correcta,v2_fixed_system_prompt,1
+224,peru,Claude,parcial,v2_fixed_system_prompt,1
+225,republica dominicana,Claude,abstencion,v2_fixed_system_prompt,1
+226,republica dominicana,Claude,parcial,v2_fixed_system_prompt,1
+227,republica dominicana,Claude,abstencion,v2_fixed_system_prompt,1
+228,republica dominicana,Claude,parcial,v2_fixed_system_prompt,1
+229,republica dominicana,Claude,correcta,v2_fixed_system_prompt,1
+230,republica dominicana,Claude,alucinacion,v2_fixed_system_prompt,1
+231,republica dominicana,Claude,alucinacion,v2_fixed_system_prompt,1
+232,republica dominicana,Claude,parcial,v2_fixed_system_prompt,1
+233,republica dominicana,Claude,parcial,v2_fixed_system_prompt,1
+234,republica dominicana,Claude,alucinacion,v2_fixed_system_prompt,1
+235,republica dominicana,Claude,parcial,v2_fixed_system_prompt,1
+236,republica dominicana,Claude,correcta,v2_fixed_system_prompt,1
+237,republica dominicana,Claude,parcial,v2_fixed_system_prompt,1
+238,republica dominicana,Claude,correcta,v2_fixed_system_prompt,1
+239,republica dominicana,Claude,parcial,v2_fixed_system_prompt,1
+240,uruguay,Claude,parcial,v2_fixed_system_prompt,1
+241,uruguay,Claude,alucinacion,v2_fixed_system_prompt,1
+242,uruguay,Claude,correcta,v2_fixed_system_prompt,1
+243,uruguay,Claude,parcial,v2_fixed_system_prompt,1
+244,uruguay,Claude,parcial,v2_fixed_system_prompt,1
+245,uruguay,Claude,parcial,v2_fixed_system_prompt,1
+246,uruguay,Claude,parcial,v2_fixed_system_prompt,1
+247,uruguay,Claude,correcta,v2_fixed_system_prompt,1
+248,uruguay,Claude,parcial,v2_fixed_system_prompt,1
+249,uruguay,Claude,abstencion,v2_fixed_system_prompt,1
+250,uruguay,Claude,alucinacion,v2_fixed_system_prompt,1
+251,uruguay,Claude,parcial,v2_fixed_system_prompt,1
+252,uruguay,Claude,abstencion,v2_fixed_system_prompt,1
+253,uruguay,Claude,abstencion,v2_fixed_system_prompt,1
+254,uruguay,Claude,alucinacion,v2_fixed_system_prompt,1
+255,venezuela,Claude,correcta,v2_fixed_system_prompt,1
+256,venezuela,Claude,correcta,v2_fixed_system_prompt,1
+257,venezuela,Claude,parcial,v2_fixed_system_prompt,1
+258,venezuela,Claude,abstencion,v2_fixed_system_prompt,1
+259,venezuela,Claude,parcial,v2_fixed_system_prompt,1
+260,venezuela,Claude,alucinacion,v2_fixed_system_prompt,1
+261,venezuela,Claude,alucinacion,v2_fixed_system_prompt,1
+262,venezuela,Claude,correcta,v2_fixed_system_prompt,1
+263,venezuela,Claude,alucinacion,v2_fixed_system_prompt,1
+264,venezuela,Claude,alucinacion,v2_fixed_system_prompt,1
+265,venezuela,Claude,abstencion,v2_fixed_system_prompt,1
+266,venezuela,Claude,alucinacion,v2_fixed_system_prompt,1
+267,venezuela,Claude,alucinacion,v2_fixed_system_prompt,1
+268,venezuela,Claude,abstencion,v2_fixed_system_prompt,1
+269,venezuela,Claude,abstencion,v2_fixed_system_prompt,1
